@@ -23,8 +23,8 @@
     </div>
     <div class="our-scrolling-ticker p-relative">
         <h4 class="announcement"><i class="fa fa-bullhorn" aria-hidden="true"></i> Announcement</h4>
-        <marquee class="marqe-scroll" onmouseover="this.stop();" onmouseout="this.start();"><span>Important notification
-                regarding age relaxation in Non-Professional PG Courses.</span></marquee>
+        <marquee class="marqe-scroll" onmouseover="this.stop();" onmouseout="this.start();"><span>Approval from UGC DEV
+                Aviated.</span></marquee>
     </div>
 
 
@@ -61,8 +61,8 @@
                                                 Placeat voluptatum maxime vero sunt doloremque.</p>
                                         </div>
                                         <!-- <div class="service-btn">
-                                                                                            <a href="#" class="readmore-btn">Read More</a>
-                                                                                        </div> -->
+                                                                                                                    <a href="#" class="readmore-btn">Read More</a>
+                                                                                                                </div> -->
                                     </div>
                                 </div>
 
@@ -88,8 +88,8 @@
                                                 Placeat voluptatum maxime vero sunt doloremque.</p>
                                         </div>
                                         <!-- <div class="service-btn">
-                                                                                            <a href="#" class="readmore-btn">Read More</a>
-                                                                                        </div> -->
+                                                                                                                    <a href="#" class="readmore-btn">Read More</a>
+                                                                                                                </div> -->
                                     </div>
                                 </div>
 
@@ -116,8 +116,8 @@
                                                 Placeat voluptatum maxime vero sunt doloremque.</p>
                                         </div>
                                         <!-- <div class="service-btn">
-                                                                                            <a href="#" class="readmore-btn">Read More</a>
-                                                                                        </div> -->
+                                                                                                                    <a href="#" class="readmore-btn">Read More</a>
+                                                                                                                </div> -->
                                     </div>
                                 </div>
 
@@ -146,8 +146,8 @@
                                                 Placeat voluptatum maxime vero sunt doloremque.</p>
                                         </div>
                                         <!-- <div class="service-btn">
-                                                                                            <a href="#" class="readmore-btn">Read More</a>
-                                                                                        </div> -->
+                                                                                                                    <a href="#" class="readmore-btn">Read More</a>
+                                                                                                                </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -183,7 +183,7 @@
                         </div>
                         <div class="success-rating-box">
                             <div class="Success-rating-content">
-                                <h2><span>A++</span> Grade</h2>
+                                <h2><span>A+</span> Grade</h2>
                                 <p>NAAC Accreditation </p>
                             </div>
                         </div>
@@ -194,70 +194,77 @@
                     <div class="about-us-content">
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">About CDOE</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">The Central University of Himachal Pradesh is
-                                established under the Central Universities Act 2009 (No. 25 of 2009) enacted by the
-                                Parliament. The University is funded and regulated by the University Grants Commission
-                                (UGC). The University became functional with the assumption of charge by the first Vice
-                                Chancellor on 20th January 2010.
-
-                            </p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">The Prime Minister, in his address to the
-                                nation on August 15, 2007, announced the establishment of a Central University in each
-                                of the states that did not have a central university so far. Subsequently, 11th Plan
-                                provided for the establishment of 16 new Central Universities. Accordingly, the Central
-                                Universities Act 2009 (No. 25 of 2009) which received Presidential assent on 20th March
-                                2009 provided for the establishment of Central University of Himachal Pradesh amongst
-                                others.
-
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="why-choose-content-body">
-                        <div class="why-choose-item wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="icon-box">
-                                <img src="{{ asset('frontend/images/icons/UGC-DEB-Entitled.png') }}" alt="">
-                            </div>
-                            <div class="why-choose-item-content">
-                                <h3>UGC DEB Entitled</h3>
-                                <p>Recognized by UGC DEB for Online Education Programs.</p>
-                            </div>
-                        </div>
-                        <div class="why-choose-item wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="icon-box">
-                                <img src="{{ asset('frontend/images/icons/NAAC-Accreditation.png') }}" alt="">
-                            </div>
-                            <div class="why-choose-item-content">
-                                <h3>NAAC Accreditation: A++ Grade</h3>
-                                <p>Awarded A++ status by NAAC for excellence in evaluation criteria.</p>
-                            </div>
-                        </div>
-                        <div class="why-choose-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="icon-box">
-                                <img src="{{ asset('frontend/images/icons/UGC-Category-University.png') }}"
-                                    alt="">
-                            </div>
-                            <div class="why-choose-item-content">
-                                <h3>UGC Category 1 University</h3>
-                                <p>Recognized by UGC for academic autonomy and excellence.</p>
-                            </div>
-                        </div>
-                        <div class="why-choose-item wow fadeInUp" data-wow-delay="0.8s">
-                            <div class="icon-box">
-                                <img src="{{ asset('frontend/images/icons/university-ranking.png') }}" alt="">
-                            </div>
-                            <div class="why-choose-item-content">
-                                <h3>Univesity Rankings</h3>
-                                <p>The university holds numerous national and international rankings, showcasing its
-                                    excellence and reputation globally.</p>
-                            </div>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">The Centre for Distance and Online Education
+                                (CDOE) is committed to providing high-quality, flexible learning opportunities to students
+                                worldwide. Our innovative approach combines cutting-edge technology with expert instruction
+                                to deliver an unparalleled educational experience.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">At CDOE, we believe that education should be
+                                accessible to all, regardless of geographical location or personal circumstances. Our
+                                programs are designed to accommodate diverse learning needs and schedules, enabling students
+                                to pursue their academic goals while balancing work and personal commitments.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="our-process">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step-item wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="process-step-no">
+                            <img src="{{ asset('frontend/images/icons/UGC-DEB-Entitled.png')}}" alt="">
+                        </div>
+                        <div class="process-step-content">
+                            <h3>UGC DEB Entitled</h3>
+                            <p>Recognized by UGC DEB for Online Education Programs.</p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step-item wow fadeInUp" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <div class="process-step-no">
+                            <img src="{{ asset('frontend/images/icons/NAAC-Accreditation.png')}}" alt="">
+                        </div>
+                        <div class="process-step-content">
+                            <h3>NAAC Accreditation: A+ Grade</h3>
+                            <p>Awarded A+ status by NAAC for excellence in evaluation criteria.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step-item wow fadeInUp" data-wow-delay="0.4s"
+                        style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <div class="process-step-no">
+                            <img src="{{ asset('frontend/images/icons/UGC-Category-University.png')}}" alt="">
+                        </div>
+                        <div class="process-step-content">
+                            <h3>UGC Category 2 University</h3>
+                            <p>Recognized by UGC for academic autonomy and excellence.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step-item wow fadeInUp" data-wow-delay="0.4s"
+                        style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <div class="process-step-no">
+                            <img src="{{ asset('frontend/images/icons/university-ranking.png')}}" alt="">
+                        </div>
+                        <div class="process-step-content">
+                            <h3>Univesity Rankings</h3>
+                            <p>The university holds numerous national and international rankings, showcasing its excellence
+                                and reputation globally.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="our-services">
