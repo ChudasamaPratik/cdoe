@@ -4,10 +4,23 @@
             <div class="col-lg-8">
                 <div class="topbar-contact-info">
                     <ul>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="#">Downloads </a></li>
-                        <li><a href="#"> SWAYAM </a></li>
+                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">SWAYAM</a></li>
+                        <li><a href="#">How To Apply</a></li>
+                        <li><a href="#">Login</a></li>
                     </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="footer-latest-news-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" name="text" class="form-control ptop-srcf" id="search"
+                                placeholder="Search Here" required="">
+                            <button type="submit" class="latestnews-btn"><img
+                                    src="{{ asset('frontend/images/arrow-accent.svg') }}" alt=""></button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -166,11 +179,12 @@
                                     <li class="nav-item"><a class="nav-link" href="odl.html">Online Learing (OL)</a></li>
                                 </ul>
                             </li> -->
-                            <li class="nav-item"><a class="nav-link" href="{{ route('how-to-apply') }}">How to
+                            {{-- <li class="nav-item"><a class="nav-link" href="{{ route('how-to-apply') }}">How to
                                     Apply</a></li>
                             <div class="hero-btn">
-                                <a href="https://cuhimachalcdoe.samarth.ac.in/index.php/site/login" target="_blank" class="btn-default">Login</a>
-                            </div>
+                                <a href="https://cuhimachalcdoe.samarth.ac.in/index.php/site/login" target="_blank"
+                                    class="btn-default">Login</a>
+                            </div> --}}
                         </ul>
                     </div>
                 </div>
