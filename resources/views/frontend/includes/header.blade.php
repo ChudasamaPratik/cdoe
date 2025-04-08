@@ -65,8 +65,7 @@
                                             CDOE Authorities / Officers
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item"
-                                                    href="{{ route('authorities.show', 'vice-chancellor') }}">Vice
+                                            <li><a class="dropdown-item" href="{{ route('vice.chancellor') }}">Vice
                                                     Chancellor
                                                 </a></li>
                                             <li><a class="dropdown-item"

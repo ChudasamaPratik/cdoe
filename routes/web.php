@@ -75,6 +75,9 @@ Route::get('/program-coordinator/{name}', function ($name) {
 Route::get('/course-coordinator-details', function () {
     return view('frontend.pages.course-coordinator-details');
 })->name('course.coordinator.details');
+Route::get('/vice-chancellor', function () {
+    return view('frontend.pages.vice-chancellor');
+})->name('vice.chancellor');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
