@@ -78,6 +78,13 @@ Route::get('/course-coordinator-details', function () {
 Route::get('/vice-chancellor', function () {
     return view('frontend.pages.vice-chancellor');
 })->name('vice.chancellor');
+Route::get('/faqs', function () {
+    return view('frontend.pages.faq');
+})->name('faq');
+
+Route::get('Administrative-Technical-staff', function () {
+    return view('frontend.pages.administrative-technical-staff');
+})->name('administrative_technical_staff');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

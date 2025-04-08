@@ -87,11 +87,9 @@
                                                     Admissions
                                                     and Examinations </a></li>
                                             <li><a class="dropdown-item"
-                                                    href="{{ route('coordinators.show', 'administrative-cell') }}">Administrative
-                                                    Cell</a></li>
-                                            <li><a class="dropdown-item"
-                                                    href="{{ route('coordinators.show', 'technical-it-cell') }}">Technical
-                                                    & IT Cell</a></li>
+                                                    href="{{ route('administrative_technical_staff') }}">Administrative
+                                                    and Technical staff
+                                                </a></li>
                                             <li><a class="dropdown-item"
                                                     href="{{ route('coordinators.show', 'program-coordinators') }}">Program
                                                     Coordinators</a></li>
@@ -166,6 +164,8 @@
                                 <ul>
                                     <li class="nav-item"><a class="nav-link" href="{{ route('help.desk') }}">Help
                                             Desk </a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('faq') }}">FAQ </a>
+                                    </li>
                                     <li class="nav-item"><a class="nav-link" target="_blank"
                                             href="{{ asset('documents/Grievance Redressal Guidelines CDOE.pdf') }}">Grievance
                                             Redressal Guidelines</a></li>
