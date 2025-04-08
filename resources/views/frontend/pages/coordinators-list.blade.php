@@ -40,7 +40,7 @@
                                                 src="{{ asset('frontend/images/team/Prof. Sanjeet Singh.jpg') }}"
                                                 alt="" class="pctab-img img-fluid h-auto">
                                         </th>
-                                        <td>Prof. Sanjeet Thakur</td>
+                                        <td>Prof. Sanjeet Singh</td>
                                         <td>M.A Economics</td>
                                         <td>sanjeet@gmail.com</td>
                                     </tr>
@@ -49,16 +49,18 @@
                                                 src="{{ asset('frontend/images/team/Prof. Jagmeet Bawa.png') }}"
                                                 alt="" class="pctab-img img-fluid h-auto">
                                         </th>
-                                        <td>Prof. Jagmeet Bawa</td>
+                                        <td>Prof. Jagmeet Singh</td>
                                         <td>M.A Political Science</td>
                                         <td>jagmeet@gmail.com</td>
                                     </tr>
                                     <tr>
                                         <th class="text-center"><img
-                                                src="{{ asset('frontend/images/team/Dr. Aditi Sharma.jpg') }}"
+                                                src="{{ asset('frontend/images/team/Aditi_Pic_Programme_Coordinator_MBA.jpg') }}"
                                                 alt="" class="pctab-img img-fluid h-auto">
                                         </th>
-                                        <td>Dr. Aditi Sharma</td>
+                                        <td><a style="color:#f47216" href="{{ route('programCoordinator.details', 'aditi') }}">Dr. Aditi
+                                                Sharma</a>
+                                        </td>
                                         <td>MBA</td>
                                         <td>aditi@gmail.com</td>
                                     </tr>
@@ -67,7 +69,10 @@
                                                 src="{{ asset('frontend/images/team/Dr. Parveen Sadotra.jpg') }}"
                                                 alt="" class="pctab-img">
                                         </th>
-                                        <td>Dr. Parveen Sadotra</td>
+                                        <td><a style="color:#f47216"
+                                                href="{{ route('programCoordinator.details', ['name' => 'parveen']) }}">Dr.
+                                                Parveen Sadotra</a>
+                                        </td>
                                         <td>MCA</td>
                                         <td>parveen@gmail.com</td>
                                     </tr>
@@ -76,7 +81,7 @@
                                                 src="{{ asset('frontend/images/team/Dr. Jadish Parshad.jpg') }}"
                                                 alt="" class="pctab-img">
                                         </th>
-                                        <td>Dr. Jadish Parshad</td>
+                                        <td><a href="{{ route('programCoordinator.details', ['name' => 'jagdish']) }}" style="color:#f47216">Dr. Jadish Parshad</a></td>
                                         <td>M.A History</td>
                                         <td>jadish@gmail.com</td>
                                     </tr>

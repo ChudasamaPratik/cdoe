@@ -6,8 +6,10 @@
                     <ul>
                         <li><a href="#">Downloads</a></li>
                         <li><a href="#">SWAYAM</a></li>
-                        <li><a href="#">How To Apply</a></li>
-                        <li><a href="#">Login</a></li>
+                        <li><a href="{{ route('sitemap') }}">Sitemap</a></li>
+                        <li><a href="{{ route('how-to-apply') }}">How To Apply</a></li>
+                        <li><a href="https://cuhimachalcdoe.samarth.ac.in/index.php/site/login" target="_blank">Login</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -159,8 +161,19 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="{{ route('help.desk') }}">Learner Support
-                                    Services</a></li>
+                            <li class="nav-item submenu"><a class="nav-link" href="#">Learner
+                                    Support
+                                    Services</a>
+                                <ul>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('help.desk') }}">Help
+                                            Desk </a></li>
+                                    <li class="nav-item"><a class="nav-link" target="_blank"
+                                            href="{{ asset('documents/Grievance Redressal Guidelines CDOE.pdf') }}">Grievance
+                                            Redressal Guidelines</a></li>
+
+                                </ul>
+
+                            </li>
 
                             <li class="nav-item submenu"><a class="nav-link" href="#">CIQA</a>
                                 <ul>
