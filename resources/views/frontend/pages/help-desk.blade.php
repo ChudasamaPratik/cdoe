@@ -33,7 +33,7 @@
 
                         <div class="contact-info-content">
                             <h3>contact</h3>
-                            <p>01892-229573</p>
+                            <p>01892-229330</p>
                         </div>
                     </div>
                 </div>
@@ -47,12 +47,73 @@
 
                         <div class="contact-info-content">
                             <h3>email</h3>
-                            <p>cvc@hpcu.ac.in</p>
-                            <p>pstovc@hpcu.ac.in</p>
+                            <p>helpdeskcdoe.cuhp@hpcu.ac.in</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="helpdesk-details wow fadeInUp">
+                        <h3 class="mb-4">Helpdesk Details</h3>
+                        
+                        <div class="helpdesk-item mb-4">
+                            <h4>(1) Incharge Helpdesk</h4>
+                            <p>Dr. Sudam Charan Sahu, Assistant Professor, Deptt. Of Library &amp; Information Sciences</p>
+                        </div>
+                        
+                        <div class="helpdesk-item mb-4">
+                            <h4>(2) Pre-Admission/Admission/SLM related matters and Fees, Examination/Assessment and SWAYAM Platform related matters</h4>
+                            <ul class="pl-4 mt-2">
+                                <li>(i) Ms. Aishwarya Rai, LDC, VC Secretariat</li>
+                                <li>(ii) Sh Rohit Dhiman, Lab Assistant, Computer Centre</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="helpdesk-contact mb-4">
+                            <p>The learners may contact above Helpdesk/Cell on following phone number/e-mail for Resolving/Redressal of their any kind of query/grievance related to online programmes:</p>
+                            <ul class="pl-4 mt-2">
+                                <li>(1) Phone No. - 01892-229330</li>
+                                <li>(2) Email: - helpdeskcdoe.cuhp@hpcu.ac.in</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <style>
+        .helpdesk-details {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.05);
+        }
+        
+        .helpdesk-details h3 {
+            color: #333;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        
+        .helpdesk-item h4, 
+        .helpdesk-contact h4 {
+            color: #007bff;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .helpdesk-item ul, 
+        .helpdesk-contact ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .helpdesk-item li, 
+        .helpdesk-contact li {
+            margin-bottom: 8px;
+        }
+    </style>
 @endsection

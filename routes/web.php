@@ -54,10 +54,27 @@ Route::get('CIQA-director', function () {
 Route::get('how-to-apply', function () {
     return view('frontend.pages.how-to-apply');
 })->name('how-to-apply');
+Route::get('gallery', function () {
+    return view('frontend.pages.gallery');
+})->name('gallery');
+
+Route::get('single-gallery', function () {
+    return view('frontend.pages.single-gallery');
+})->name('single-gallery');
+Route::get('sitemap', function () {
+    return view('frontend.pages.sitemap');
+})->name('sitemap');
+
 Route::get('/admin', function () {
     return view('backend.pages.index');
 });
+Route::get('/program-coordinator/{name}', function ($name) {
+    return view('frontend.pages.program-coordinator-details', compact('name'));
+})->name('programCoordinator.details');
 
+Route::get('/course-coordinator-details', function () {
+    return view('frontend.pages.course-coordinator-details');
+})->name('course.coordinator.details');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

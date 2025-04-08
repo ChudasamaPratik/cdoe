@@ -23,7 +23,7 @@
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="about-cdoe.html">About Us</a></li>
-                        <li><a href="gallery.html">Photo Gallery</a></li>
+                        <li><a href="{{ route('gallery') }}">Photo Gallery</a></li>
                         <li><a href="#">Admissions</a></li>
                         <li><a href="#">Programs</a></li>
                         <li><a href="#">Registration</a></li>
@@ -39,9 +39,9 @@
                         <li><a href="#">YouTube</a></li>
                         <li><a href="#">Common Wealth of Learning(Col)</a></li>
                         <li><a href="#">UGC – DEB</a></li>
+                        <li><a href="#">Ignou</a></li>
                         <li><a href="#">Coursera SAWAYAM</a></li>
                         <li><a href="#">SAWAYAM PRABHA</a></li>
-                        <li><a href="#">E- PG Pathshala</a></li>
                         <li><a href="#">E- PG Pathshala</a></li>
                     </ul>
                 </div>
@@ -171,6 +171,8 @@
 
 <!---Chat Board End-->
 <div class="sticky-icon">
+    <a href="https://cuhimachal.ac.in/index.php/" class="Twitter" target="_blank"><i class="fas fa-home"></i> Home
+    </a>
     <a href="https://www.instagram.com/?hl=en" class="Instagram"><i class="fab fa-instagram"></i> Instagram </a>
     <a href="https://www.facebook.com/" class="Facebook"><i class="fab fa-facebook-f"> </i> Facebook </a>
     <a href="https://aboutme.google.com/u/0/?referer=gplus" class="Google"><i class="fab fa-google-plus-g"> </i>

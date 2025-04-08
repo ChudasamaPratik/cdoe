@@ -6,12 +6,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <div class="page-header-box">
-                        <h2 class="text-white">Bachelor of Commerce (HONS) (B.Com. Hons.)</h2>
+                        <h2 class="text-white">Master of Arts (History)</h2>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Bachelor of Commerce (HONS) (B.Com.
-                                    Hons.)</li>
+                                <li class="breadcrumb-item active" aria-current="page">Master of Arts (History)</li>
                             </ol>
                         </nav>
                     </div>
@@ -28,7 +27,7 @@
                         <div class="team-sidebar-image">
                             <figure class="image-anime reveal"
                                 style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
-                                <img src="{{ asset('frontend/images/team/registrar.jpg') }}" alt=""
+                                <img src="{{ asset('frontend/images/team/JAGDIS_ PARSHAD.jpg') }}" alt=""
                                     style="transform: translate(0px, 0px);">
                             </figure>
                         </div>
@@ -48,15 +47,16 @@
                     <div class="team-single-content">
                         <div class="team-single-entry sngle-details">
                             <div class="team-member-header">
-                                <div class="section-title">
+                                <div class="section-title d-flex justify-content-between">
                                     <h3>Program Coordinator</h3>
+                                    <a href="{{ route('programCoordinator.details', ['name' => 'jagdish']) }}" class="btn-default">Brief Details</a>
                                 </div>
                             </div>
                             <div class="team-member-body wow fadeInUp" data-wow-delay="0.2s"
                                 style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                 <div class="team-contact-box">
                                     <h4>Name</h4>
-                                    <p>Dr. Amrendra Kumar</p>
+                                    <p>Dr. Jagdish Parshad</p>
                                 </div>
                                 <div class="team-contact-box">
                                     <h4>Designation</h4>
@@ -64,11 +64,11 @@
                                 </div>
                                 <div class="team-contact-box">
                                     <h4>Mobile</h4>
-                                    <p>+91-8840180390</p>
+                                    <p>+91-9811701650</p>
                                 </div>
                                 <div class="team-contact-box">
                                     <h4>Email</h4>
-                                    <p>amrendrakumar84@gmail.com</p>
+                                    <p>raojprasad@hpcu.ac.in </p>
                                 </div>
                             </div>
                         </div>
@@ -83,13 +83,14 @@
                                         style="visibility: visible; animation-name: fadeInUp;">
                                         <div class="author-image">
                                             <figure class="image-anime">
-                                                <img src="{{ asset('frontend/images/team/BT_sir.jpg') }}" alt="">
+                                                <img src="{{ asset('frontend/images/team/Dr_Rajeev_Kumar.png') }}"
+                                                    alt="">
                                             </figure>
                                         </div>
                                         <div class="service-content text-center">
-                                            <h3>Prof. Brajesh Tiwari</h3>
+                                            <h3>Dr. Rajeev Kumar</h3>
                                             <hr>
-                                            <p class="team-contact">brajeshtiwari65@gmail.com</p>
+                                            <p class="team-contact">rajeev@gmail.com</p>
                                         </div>
                                     </div>
                                 </div>
@@ -98,14 +99,14 @@
                                         style="visibility: visible; animation-name: fadeInUp;">
                                         <div class="author-image">
                                             <figure class="image-anime">
-                                                <img src="{{ asset('frontend/images/team/Prof._A.K._Saxena.jpg') }}"
+                                                <img src="{{ asset('frontend/images/team/Dr_Thuktan_Negi.jpg') }}"
                                                     alt="">
                                             </figure>
                                         </div>
                                         <div class="service-content text-center">
-                                            <h3>Prof. Amit Kumar Saxena</h3>
+                                            <h3>Dr. Thuktan Negi</h3>
                                             <hr>
-                                            <p class="team-contact">amitsaxena65@rediffmail.com</p>
+                                            <p class="team-contact">thuktan@gmail.com</p>
                                         </div>
                                     </div>
                                 </div>
@@ -114,12 +115,12 @@
                                         style="visibility: visible; animation-name: fadeInUp;">
                                         <div class="author-image">
                                             <figure class="image-anime">
-                                                <img src="{{ asset('frontend/images/team/Dr._Anupama_Saxena.jpg') }}"
+                                                <img src="{{ asset('frontend/images/team/Prof_Kanwar_Chanderdeep_Singh.jpg') }}"
                                                     alt="">
                                             </figure>
                                         </div>
                                         <div class="service-content text-center">
-                                            <h3>Prof. Anupama Saxena</h3>
+                                            <h3>Prof. Kanwar Chanderdeep Singh</h3>
                                             <hr>
                                             <p class="team-contact">anupama66@rediffmail.com</p>
                                         </div>
@@ -130,15 +131,17 @@
                                         style="visibility: visible; animation-name: fadeInUp;">
                                         <div class="author-image">
                                             <figure class="image-anime">
-                                                <img src="{{ asset('frontend/images/team/Praveen-kumar.jpg') }}"
+                                                <img src="{{ asset('frontend/images/team/BC_Chauhan-Pic.jpg') }}"
                                                     alt="">
                                             </figure>
                                         </div>
-                                        <div class="service-content text-center">
-                                            <h3>Prof. Pravin Kumar Mishra</h3>
-                                            <hr>
-                                            <p class="team-contact">praveenmishra02010@gmail.com</p>
-                                        </div>
+                                        <a href="{{ route('course.coordinator.details') }}">
+                                            <div class="service-content text-center">
+                                                <h3>Prof. Bhag Chand Chauhan</h3>
+                                                <hr>
+                                                <p class="team-contact">bcawake@hpcu.ac.in </p>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -172,57 +175,109 @@
                             </div>
                         </div>
 
-                        <div class="team-contact-form">
+                        <!-- First Semester Table -->
+                        <div class="team-contact-form mt-4">
                             <div class="team-member-header">
                                 <div class="section-title">
-                                    <h3>Semester Wise</h3>
+                                    <h3>Name of Online Academic Programme - Master of Arts (History) 1<sup>st</sup> Semester
+                                    </h3>
                                 </div>
                             </div>
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
-                                        <th scope="col" class="tbl-bottom">Sr No.</th>
-                                        <th scope="col" class="tbl-bottom">Title of Course</th>
-                                        <th scope="col" class="tbl-bottom">Course Credit</th>
-                                        <th scope="col" class="tbl-bottom">Course Coordinator Name</th>
+                                        <th scope="col" class="tbl-bottom">Course Code</th>
+                                        <th scope="col" class="tbl-bottom">Name of the Course</th>
+                                        <th scope="col" class="tbl-bottom">Name of Course Coordinator</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th>1</th>
-                                        <td>Master of Computer Application</td>
-                                        <td>A+</td>
-                                        <td>Prof. Brajesh Tiwari</td>
+                                        <th>HIS-451</th>
+                                        <td>Political and Economic History of India up to 8th CE</td>
+                                        <td>Dr. Rajeev Kumar</td>
                                     </tr>
                                     <tr>
-                                        <th>2</th>
-                                        <td>Master of Computer Application</td>
-                                        <td>A+</td>
-                                        <td>Prof. Brajesh Tiwari</td>
+                                        <th>HIS-452</th>
+                                        <td>Political and Economic History of India up-to 8th-16th CE</td>
+                                        <td>Dr. Rajeev Kumar</td>
                                     </tr>
                                     <tr>
-                                        <th>3</th>
-                                        <td>Master of Computer Application</td>
-                                        <td>A+</td>
-                                        <td>Prof. Brajesh Tiwari</td>
+                                        <th>HIS-453</th>
+                                        <td>Society, Culture and Dharma in India up to early medieval Period</td>
+                                        <td>Dr. Thuktan Negi</td>
                                     </tr>
                                     <tr>
-                                        <th>4</th>
-                                        <td>Master of Computer Application</td>
-                                        <td>A+</td>
-                                        <td>Prof. Brajesh Tiwari</td>
+                                        <th>HIS-456</th>
+                                        <td>Outline of Historical Tourism</td>
+                                        <td>Prof. Kanwar Chanderdeep Singh</td>
                                     </tr>
                                     <tr>
-                                        <th>5</th>
-                                        <td>Master of Computer Application</td>
-                                        <td>A+</td>
-                                        <td>Prof. Brajesh Tiwari</td>
+                                        <th>IKS</th>
+                                        <td>Indian Knowledge System</td>
+                                        <td>Prof. Bhag Chand Chauhan</td>
                                     </tr>
                                     <tr>
-                                        <th>6</th>
-                                        <td>Master of Computer Application</td>
-                                        <td>A+</td>
-                                        <td>Prof. Brajesh Tiwari</td>
+                                        <th>Pol-448</th>
+                                        <td>Ancient Indian Political Institutions</td>
+                                        <td>Prof. Jagmeet singh</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Second Semester Table -->
+                        <div class="team-contact-form mt-4">
+                            <div class="team-member-header">
+                                <div class="section-title">
+                                    <h3>Name of Online Academic Programme - Master of Arts (History) 2<sup>nd</sup> Semester
+                                    </h3>
+                                </div>
+                            </div>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="tbl-bottom">Course Code</th>
+                                        <th scope="col" class="tbl-bottom">Name of the Course</th>
+                                        <th scope="col" class="tbl-bottom">Name of Course Coordinator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>HIS-461</th>
+                                        <td>Political and Economic History of India during 16<sup>th</sup>-17<sup>th</sup>
+                                            Centuries</td>
+                                        <td>Dr. Raghvendra Yadav</td>
+                                    </tr>
+                                    <tr>
+                                        <th>HIS-462</th>
+                                        <td>National Movement of India-I: 1757 to 1857</td>
+                                        <td>Dr. Raghvendra Yadav</td>
+                                    </tr>
+                                    <tr>
+                                        <th>HIS-463</th>
+                                        <td>National Movement of India-II: 1858 to 1947</td>
+                                        <td>Prof. Kanwar Chanderdeep Singh</td>
+                                    </tr>
+                                    <tr>
+                                        <th>HIS-467</th>
+                                        <td>Understanding Archaeology</td>
+                                        <td>Dr. Jagdish Parsad</td>
+                                    </tr>
+                                    <tr>
+                                        <th>HIS-468</th>
+                                        <td>Science and Technology in Ancient India(IKS)</td>
+                                        <td>Dr. Rajeev Kumar</td>
+                                    </tr>
+                                    <tr>
+                                        <th>ECN-465</th>
+                                        <td>Contemporary Issues in Indian Economy - II</td>
+                                        <td>Dr. Vinod Naik</td>
+                                    </tr>
+                                    <tr>
+                                        <th>HIS-475</th>
+                                        <td>Society, Culture and Dharma in India during the Medieval Times</td>
+                                        <td>Dr. Thuktan Negi</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -239,31 +294,23 @@
                                 <tbody>
                                     <tr>
                                         <th>Semester 1</th>
-                                        <td>16700 INR</td>
+                                        <td>27000 INR</td>
                                     </tr>
                                     <tr>
                                         <th>Semester 2</th>
-                                        <td>12500 INR</td>
+                                        <td>19500 INR</td>
                                     </tr>
                                     <tr>
                                         <th>Semester 3</th>
-                                        <td>13500 INR</td>
+                                        <td>24000 INR</td>
                                     </tr>
                                     <tr>
                                         <th>Semester 4</th>
-                                        <td>12500 INR</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Semester 5</th>
-                                        <td>13500 INR</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Semester 6</th>
-                                        <td>12500 INR</td>
+                                        <td>19500 INR</td>
                                     </tr>
                                     <tr>
                                         <th class="tbl-bottom">Total Fees</th>
-                                        <td class="tbl-bottom">81200 INR</td>
+                                        <td class="tbl-bottom">90000 INR</td>
                                     </tr>
                                 </tbody>
                             </table>

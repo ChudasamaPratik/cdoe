@@ -3332,7 +3332,7 @@ header.main-header .header-sticky.active{
 
 .sidebar-cta-box{
     background-color: var(--accent-color);
-	padding: 30px;
+	padding: 15px;
 }
 
 .sidebar-cta-content{
@@ -4156,7 +4156,7 @@ header.main-header .header-sticky.active{
 }
 
 .team-sidebar-image{
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 .team-sidebar-image figure{
@@ -5217,7 +5217,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.team-sidebar-image{
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 	}
 
 	.team-sidebar-image img{
@@ -7095,6 +7095,8 @@ a {
 #myBtn:hover {
   background-color: #555;
 }			
-
+.text-white{
+	color:#ffffff;
+}
 
 
