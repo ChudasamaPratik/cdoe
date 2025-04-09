@@ -36,7 +36,7 @@
     @yield('content')
 
 
-    <nav id="pojo-a11y-toolbar" class="pojo-a11y-toolbar-right pojo-a11y- pojo-a11y-toolbar" role="navigation"
+    <nav id="pojo-a11y-toolbar" class="pojo-a11y-toolbar-left pojo-a11y- pojo-a11y-toolbar" role="navigation"
         style="margin-top: 200px;">
         <div class="pojo-a11y-toolbar-toggle"> <a class="pojo-a11y-toolbar-link pojo-a11y-toolbar-toggle-link"
                 href="javascript:void(0);" title="Accessibility Tools"> <span class="pojo-sr-only sr-only">Open
