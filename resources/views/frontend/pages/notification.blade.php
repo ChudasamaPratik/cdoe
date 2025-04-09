@@ -116,7 +116,7 @@
 
                             <!-- Archive Button -->
                             <div class="text-end mt-4">
-                                <a href="notifications-archive.html" class="btn btn-secondary">
+                                <a href="#" class="btn btn-secondary">
                                     <i class="fa fa-archive"></i> View Archive
                                 </a>
                             </div>

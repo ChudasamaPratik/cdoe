@@ -15,6 +15,12 @@
     </style>
 @endpush
 @section('content')
+    <style>
+        ol li {
+            text-align: justify;
+            list-style-type: circle;
+        }
+    </style>
     <div class="page-header">
         <div class="container">
             <div class="row align-items-center">
@@ -23,7 +29,7 @@
                         <h2 class="text-white">Fees Structure </h2>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
+                                <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Fees Structure</li>
                             </ol>
                         </nav>
@@ -218,11 +224,16 @@
                                     <tr class="programme-row" data-programme="MCA">
                                         <td>Master of Computer Application (MCA)</td>
                                         <td>2 Years</td>
-                                        <td>₹21,150<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹13,000<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹17,850<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹13,000<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹65,000<div class="fee-note">Excluding e-Suvidha fee</div></td>
+                                        <td>₹21,150<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹13,000<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹17,850<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹13,000<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹65,000<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
                                     </tr>
                                     <!-- MCA Details Row -->
                                     <tr class="fee-details-row" id="MCA-details">
@@ -379,11 +390,16 @@
                                     <tr class="programme-row" data-programme="MA-History">
                                         <td>Master of Arts (History)</td>
                                         <td>2 Years</td>
-                                        <td>₹9,050<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹3,300<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹6,050<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹3,300<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹21,700<div class="fee-note">Excluding e-Suvidha fee</div></td>
+                                        <td>₹9,050<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹3,300<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹6,050<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹3,300<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹21,700<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
                                     </tr>
                                     <!-- MA History Details Row -->
                                     <tr class="fee-details-row" id="MA-History-details">
@@ -534,11 +550,16 @@
                                     <tr class="programme-row" data-programme="MA-Economics">
                                         <td>Master of Arts (Economics)</td>
                                         <td>2 Years</td>
-                                        <td>₹9,050<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹3,300<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹6,050<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹3,300<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹21,700<div class="fee-note">Excluding e-Suvidha fee</div></td>
+                                        <td>₹9,050<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹3,300<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹6,050<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹3,300<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹21,700<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
                                     </tr>
                                     <!-- MA Economics Details Row -->
                                     <tr class="fee-details-row" id="MA-Economics-details">
@@ -690,11 +711,16 @@
                                     <tr class="programme-row" data-programme="MA-Political-Science">
                                         <td>Master of Arts (Political Science)</td>
                                         <td>2 Years</td>
-                                        <td>₹9,050<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹3,300<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹6,050<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹3,300<div class="fee-note">Excluding e-Suvidha fee</div></td>
-                                        <td>₹21,700<div class="fee-note">Excluding e-Suvidha fee</div></td>
+                                        <td>₹9,050<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹3,300<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹6,050<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹3,300<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
+                                        <td>₹21,700<div class="fee-note">Excluding e-Suvidha fee</div>
+                                        </td>
                                     </tr>
                                     <!-- MA Political Science Details Row -->
                                     <tr class="fee-details-row" id="MA-Political-Science-details">
