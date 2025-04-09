@@ -24,10 +24,10 @@
                     <ul>
                         <li><a href="about-cdoe.html">About Us</a></li>
                         <li><a href="{{ route('gallery') }}">Photo Gallery</a></li>
-                        <li><a href="#">Admissions</a></li>
+                        {{-- <li><a href="#">Admissions</a></li>
                         <li><a href="#">Programs</a></li>
                         <li><a href="#">Registration</a></li>
-                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Login</a></li> --}}
                     </ul>
                 </div>
             </div>
@@ -35,14 +35,15 @@
                 <div class="footer-links">
                     <h3>Important Links</h3>
                     <ul>
-                        <li><a href="#">UGC</a></li>
-                        <li><a href="#">YouTube</a></li>
-                        <li><a href="#">Common Wealth of Learning(Col)</a></li>
-                        <li><a href="#">UGC – DEB</a></li>
-                        <li><a href="#">Ignou</a></li>
-                        <li><a href="#">Coursera SAWAYAM</a></li>
-                        <li><a href="#">SAWAYAM PRABHA</a></li>
-                        <li><a href="#">E- PG Pathshala</a></li>
+                        <li><a href="https://www.ugc.ac.in/">UGC</a></li>
+                        <li><a href="https://www.youtube.com/">YouTube</a></li>
+                        <li><a href="https://www.col.org/">Common Wealth of Learning(Col)</a></li>
+                        <li><a href="https://deb.ugc.ac.in/">UGC – DEB</a></li>
+                        <li><a href="https://www.ignou.ac.in/">Ignou</a></li>
+                        <li><a href="https://www.coursera.org/">Coursera</a></li>
+                        <li><a href="https://swayam.gov.in/">SWAYAM</a></li>
+                        <li><a href="https://swayamprabha.gov.in/">SWAYAM PRABHA</a></li>
+                        <li><a href="https://epgp.inflibnet.ac.in/">E- PG Pathshala</a></li>
                     </ul>
                 </div>
             </div>
@@ -50,14 +51,14 @@
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="footer-links mt-50">
                     <ul>
-                        <li><a href="#">E- Gyankosh</a></li>
-                        <li><a href="#">E- Sindhu</a></li>
-                        <li><a href="#">Shodh Sindhu</a></li>
-                        <li><a href="#">NTA NET</a></li>
-                        <li><a href="#">AICTE</a></li>
-                        <li><a href="#">ICSSR</a></li>
-                        <li><a href="#">MoE</a></li>
-                        <li><a href="#">CUHP</a></li>
+                        <li><a href="https://egyankosh.ac.in/">E- Gyankosh</a></li>
+                        <li><a href="https://ess.inflibnet.ac.in/">E- Sindhu</a></li>
+                        <li><a href="https://ess.inflibnet.ac.in/">Shodh Sindhu</a></li>
+                        <li><a href="https://nta.ac.in/UGCNet">NTA NET</a></li>
+                        <li><a href="https://www.aicte-india.org/">AICTE</a></li>
+                        <li><a href="https://icssr.org/">ICSSR</a></li>
+                        <li><a href="https://www.education.gov.in/">MoE</a></li>
+                        <li><a href="https://www.cuhimachal.ac.in/">CUHP</a></li>
                     </ul>
                 </div>
             </div>
@@ -67,9 +68,9 @@
                     <ul>
                         <li><a href="#">Vice Chancellor Secretariat, Central University of Himachal Pradesh, Near
                                 HPCA Stadium, Dharamshala, Distt Kangra, Himachal Pradesh - 176215</a></li>
-                        <li><b>Phone:</b> <a href="#">01892-229573</a></li>
-                        <li><b>Help Desk Email:</b> <a href="#">cvc@hpcu.ac.in</a></li>
-                        <li><b>Academic Email:</b> <a href="#">pstovc@hpcu.ac.in</a></li>
+                        <li><b>Phone:</b> <a href="#">01892-229330</a></li>
+                        <li><b>Help Desk Email:</b> <a href="#">helpdeskcdoe.cuhp@hpcu.ac.in
+                        </a></li>
                     </ul>
                 </div>
             </div>
@@ -86,7 +87,7 @@
                 <div class="col-md-6">
                     <div class="footer-menu">
                         <ul>
-                            <li><a href="index.html">home</a></li>
+                            <li><a href="{{url('/')}}">home</a></li>
                             <li><a href="about-cdoe.html">about us</a></li>
                             <li><a href="contact.html">contact us</a></li>
                         </ul>

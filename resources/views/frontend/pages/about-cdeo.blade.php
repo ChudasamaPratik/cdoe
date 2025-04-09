@@ -51,25 +51,25 @@
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">About CDOE</h2>
                             <div class="about-content wow fadeInUp" data-wow-delay="0.2s">
-                                <p>The Centre for Distance and Online Education (CDOE) is an integral part of the Central
+                                <p style="text-align: justify">The Centre for Distance and Online Education (CDOE) is an integral part of the Central
                                     University of Himachal Pradesh (CUHP), Dharamshala (HP)-INDIA established by Government
                                     of India under Central Universities Act 2009.</p>
 
-                                <p>The CDOE was established in the year 2025 with the main aim of improving inclusive access
+                                <p style="text-align: justify">The CDOE was established in the year 2025 with the main aim of improving inclusive access
                                     and equity in the field of higher education as has been enunciated in the Constitution
                                     of India. The CDOE is headed by the Director with fully dedicated administrative team
                                     for its smooth functioning.</p>
 
                                 <h3>Our Approvals & Recognition</h3>
-                                <p>The CDOE has approval from University Grants Commission-Distance Education Bureau
+                                <p style="text-align: justify">The CDOE has approval from University Grants Commission-Distance Education Bureau
                                     (UGC-DEB) to offer academic programmes through online learning (OL) mode.</p>
 
                                 <h3>Our Mission</h3>
-                                <p>The CDOE emphasizes on providing quality higher education at the doorsteps of those who
+                                <p style="text-align: justify">The CDOE emphasizes on providing quality higher education at the doorsteps of those who
                                     have either been traditionally deprived of such opportunities due to socio-economic
                                     reasons or were not able to complete their higher education due to professional and
                                     personal engagements.</p>
-                                <p>The CDOE attempts to provide flexible and innovative modes of education to ensure
+                                <p style="text-align: justify">The CDOE attempts to provide flexible and innovative modes of education to ensure
                                     'independent learning' to anyone, anytime and anywhere at their own pace and
                                     convenience, and promotes the principle of 'Learn while Earn' as has been emphasized in
                                     National Education Policy (NEP)-2020.</p>
@@ -83,51 +83,51 @@
                 <div class="col-lg-12">
                     <div class="about-content wow fadeInUp" data-wow-delay="0.2s">
                         <h3>Academic Programs</h3>
-                        <p>The Centre is presently offering Online Learning (OL) programmes at Post Graduate level.
+                        <p style="text-align: justify">The Centre is presently offering Online Learning (OL) programmes at Post Graduate level.
                             These OL programmes have been tailored to meet the learning requirements of knowledge
                             seekers, professionals and socio-economically deprived individuals who wish to upgrade
                             their educational status.</p>
 
-                        <p>The CDOE follows the same curriculum which is being offered in face-to-face academic
+                        <p style="text-align: justify">The CDOE follows the same curriculum which is being offered in face-to-face academic
                             programmes of CUHP. The CDOE offers a wide range of courses which will help in enhancing
                             the skills of the learners.</p>
 
                         <h3>Innovative Curriculum</h3>
-                        <p>For this purpose, skill-oriented courses, practical-based courses, market-oriented
+                        <p style="text-align: justify">For this purpose, skill-oriented courses, practical-based courses, market-oriented
                             courses, profession-based courses, industry-driven courses, research-oriented courses
                             and internship/field work have been made integral components of different programmes.
                         </p>
 
-                        <p>The CDOE also offers courses on Bhartiya (Indian) Knowledge System (IKS) and
+                        <p style="text-align: justify">The CDOE also offers courses on Bhartiya (Indian) Knowledge System (IKS) and
                             value-oriented courses to imbibe the learners with different values and pride in being a
                             'Bhartiya' by spirit, thoughts, intellect and deeds.</p>
 
                         <h3>Affordability & Teaching Methodology</h3>
-                        <p>The OL programmes offered by the CDOE are affordable for the aspirants both in terms of
+                        <p style="text-align: justify">The OL programmes offered by the CDOE are affordable for the aspirants both in terms of
                             finance and time required to be invested for completing the studies.</p>
 
-                        <p>The CDOE adopts a diversity of instructional strategies ranging from e-self learning
+                        <p style="text-align: justify">The CDOE adopts a diversity of instructional strategies ranging from e-self learning
                             material (e-SLM), video lectures, Audio podcasts, live discussion forums, interactive
                             sessions, e-tutorials to use of open educational resources (OERs), online lectures and
                             seminars by field experts etc.</p>
 
                         <h3>Facilities & Support Services</h3>
-                        <p>The CDOE has fully equipped ICT laboratory and state of the art computer centre to offer
+                        <p style="text-align: justify">The CDOE has fully equipped ICT laboratory and state of the art computer centre to offer
                             online programmes of highest quality.</p>
 
-                        <p>The CDOE has a fully dedicated academic team comprising of programme coordinators, course
+                        <p style="text-align: justify">The CDOE has a fully dedicated academic team comprising of programme coordinators, course
                             coordinators, course mentors and dedicated faculty members for providing academic
                             support services to the learners.</p>
 
-                        <p>An exclusive technical team has been constituted by CDOE for providing learner support
+                        <p style="text-align: justify">An exclusive technical team has been constituted by CDOE for providing learner support
                             services from pre-admission stage to the stage of final award of degree to the learners.
                         </p>
 
                         <h3>Degree Equivalence & Vision</h3>
-                        <p>The degrees/diplomas awarded by CDOE through OL mode are equivalent to the degrees
+                        <p style="text-align: justify">The degrees/diplomas awarded by CDOE through OL mode are equivalent to the degrees
                             offered through conventional mode.</p>
 
-                        <p>The CDOE is fully committed to provide the learners with such learning experiences and
+                        <p style="text-align: justify">The CDOE is fully committed to provide the learners with such learning experiences and
                             exposure that will improve their personal and professional life in a manner which will
                             help them in contributing towards the vision of "Viksit Bharat@2047".</p>
                     </div>
@@ -150,7 +150,7 @@
                         </div>
                         <div class="process-step-content">
                             <h3>UGC DEB Entitled</h3>
-                            <p>Recognized by UGC DEB for Online Education Programs.</p>
+                            <p style="text-align: justify">Recognized by UGC DEB for Online Education Programs.</p>
                         </div>
                     </div>
                 </div>
@@ -163,7 +163,7 @@
                         </div>
                         <div class="process-step-content">
                             <h3>NAAC Accreditation: A+ Grade</h3>
-                            <p>Awarded A+ status by NAAC for excellence in evaluation criteria.</p>
+                            <p style="text-align: justify">Awarded A+ status by NAAC for excellence in evaluation criteria.</p>
                         </div>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
                         </div>
                         <div class="process-step-content">
                             <h3>UGC Category 2 University</h3>
-                            <p>Recognized by UGC for academic autonomy and excellence.</p>
+                            <p style="text-align: justify">Recognized by UGC for academic autonomy and excellence.</p>
                         </div>
                     </div>
                 </div>
@@ -191,7 +191,7 @@
                         </div>
                         <div class="process-step-content">
                             <h3>University Rankings</h3>
-                            <p>The university holds numerous national and international rankings, showcasing its excellence
+                            <p style="text-align: justify">The university holds numerous national and international rankings, showcasing its excellence
                                 and reputation globally.</p>
                         </div>
                     </div>

@@ -9,8 +9,8 @@
                         <h2 class="text-white">Dr. Ram Pravesh Rai</h2>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Director</li>
+                                <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">CIQA Director</li>
                             </ol>
                         </nav>
                     </div>
@@ -36,12 +36,12 @@
                                 <h4 class="text-white pb-2">Dr. Ram Pravesh Rai</h4>
                                 <hr>
                                 <h4 class="text-dark pb-2 pt-2">Designation</h4>
-                                <p>Director</p>
+                                <p>CIQA Director</p>
 
                                 <!-- Single PDF Button -->
                                 <div class="mt-3">
-                                    <a href="{{ asset('documents/CIQA_Director_profile.pdf') }}" target="_blank"
-                                        class="btn  w-100" style="background-color: #031c3c;color:white">View Complete
+                                    <a href="{{ route('CIQA-director-details') }}" target="_blank" class="btn  w-100"
+                                        style="background-color: #031c3c;color:white">View Complete
                                         Profile</a>
                                 </div>
                             </div>

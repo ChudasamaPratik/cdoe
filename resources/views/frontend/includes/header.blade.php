@@ -94,7 +94,7 @@
                                                     href="{{ route('coordinators.show', 'program-coordinators') }}">Program
                                                     Coordinators</a></li>
                                             <li><a class="dropdown-item"
-                                                    href="{{ route('coordinators.show', 'course-coordinators') }}">Course
+                                                    href="{{ route('course-coordinators') }}">Course
                                                     wise Coordinators</a></li>
                                         </ul>
                                     </li>
@@ -166,12 +166,14 @@
                                             Desk </a></li>
                                     <li class="nav-item"><a class="nav-link" href="{{ route('faq') }}">FAQ </a>
                                     </li>
-                                    <li class="nav-item"><a class="nav-link" target="_blank"
-                                            href="{{ asset('documents/Grievance Redressal Guidelines CDOE.pdf') }}">Grievance
+                                    <li class="nav-item"><a class="nav-link"
+                                            href="{{ route('grievance-guidelines') }}">Grievance
                                             Redressal Guidelines</a></li>
-
+                                    <li class="nav-item"><a class="nav-link"
+                                            href="{{ route('learner-guidelines') }}">Learner Support Services
+                                            Guidelines</a>
+                                    </li>
                                 </ul>
-
                             </li>
 
                             <li class="nav-item submenu"><a class="nav-link" href="#">CIQA</a>
@@ -185,18 +187,6 @@
                                             href="{{ route('CIQA.committee') }}">Committee</a></li>
                                 </ul>
                             </li>
-                            <!-- <li class="nav-item submenu"><a class="nav-link" href="#">Programs</a>
-                                <ul>
-                                    <li class="nav-item"><a class="nav-link" href="cdoe-programs.html">Online Learing (OL)</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="odl.html">Online Learing (OL)</a></li>
-                                </ul>
-                            </li> -->
-                            {{-- <li class="nav-item"><a class="nav-link" href="{{ route('how-to-apply') }}">How to
-                                    Apply</a></li>
-                            <div class="hero-btn">
-                                <a href="https://cuhimachalcdoe.samarth.ac.in/index.php/site/login" target="_blank"
-                                    class="btn-default">Login</a>
-                            </div> --}}
                         </ul>
                     </div>
                 </div>

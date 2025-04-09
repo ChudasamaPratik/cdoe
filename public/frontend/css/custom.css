@@ -513,7 +513,7 @@ header.main-header .header-sticky.active{
 	line-height: 1.2em;
 	padding: 5px 10px !important;
 	color: #ffffff;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 	transition: all 0.3s ease-in-out;
 }
 
@@ -712,6 +712,22 @@ header.main-header .header-sticky.active{
 
 .slicknav_menu ul ul{
 	margin: 0;
+}
+.slicknav_menu ul ul{
+	margin: 0;
+	z-index: 99;
+    position: relative;
+}
+.slicknav_menu ul ul li{
+	color:#000000;
+}
+.dropend .dropdown-menu[data-bs-popper] {
+    top: 0;
+    right: auto;
+    left: 225px;
+    /* margin-top: 0; */
+    margin-left: var(--bs-dropdown-spacer);
+    color: #000000 !important;
 }
 
 .slicknav_nav .slicknav_row,
@@ -4164,12 +4180,16 @@ header.main-header .header-sticky.active{
 
 .team-sidebar-image figure{
 	display: block;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .team-sidebar-image img{
 	width: 100%;
     aspect-ratio: 0 / 1.33;
 	object-fit: cover;
+	border: 5px solid #f0f8ff;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
 }
 
 .team-single-entry{
@@ -5320,6 +5340,16 @@ header.main-header .header-sticky.active{
 	}
 	.navbar-brand {
       width: 320px;
+}
+.slicknav_menu ul ul li a{
+	padding: 8px 14px 8px 20px;
+	color: #000000;
+}
+.dropend .dropdown-menu[data-bs-popper] {
+    left:auto;
+}
+.tab-flex{
+	display:block!important;
 }
 .tab-content>.tab-pane {
     margin-top: 40px;
@@ -7115,8 +7145,14 @@ a {
     text-align: left;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #031c3c;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #f47216;
+	width: 250px;
+}
+.tab-cont{
+	background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
 }
 .vc-prof img{
 	transform: translate(0px, 0px);
@@ -7148,7 +7184,28 @@ a {
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
-
+.announc-tab{
+	color:#ffffff;
+	background-color:#031c3c;
+	margin-bottom:10px;
+}
+.announc-tab .active{	
+	background-color:#F47216;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+ol, ul {
+    padding-left: 0rem;
+}
+.f-right{
+	float:right;
+}
+.tab-flex{
+	display:flex;
+}
 
 
 

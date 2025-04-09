@@ -85,6 +85,21 @@ Route::get('/faqs', function () {
 Route::get('Administrative-Technical-staff', function () {
     return view('frontend.pages.administrative-technical-staff');
 })->name('administrative_technical_staff');
+
+Route::get('/course-coordinators', function () {
+    return view('frontend.pages.course-coordinators');
+})->name('course-coordinators');
+
+Route::get('/CIQA-director-details', function () {
+    return view('frontend.pages.CIQA-director-details');
+})->name('CIQA-director-details');
+Route::get('Grievance-Guidelines', function () {
+    return view('frontend.pages.grievance-guidelines');
+})->name('grievance-guidelines');
+Route::get('Learner-Guidelines', function () {
+    return view('frontend.pages.learner-guidelines');
+})->name('learner-guidelines');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

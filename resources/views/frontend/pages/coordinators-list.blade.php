@@ -6,11 +6,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <div class="page-header-box">
-                        <h2 class="text-white text-capitalize">{{ $type }} Coordinator</h2>
+                        <h2 class="text-white text-capitalize">{{ $type }} </h2>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">{{ $type }} Coordinator</li>
+                                <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">{{ $type }} </li>
                             </ol>
                         </nav>
                     </div>
@@ -42,27 +42,28 @@
                                         </th>
                                         <td>Prof. Sanjeet Singh</td>
                                         <td>M.A Economics</td>
-                                        <td>sanjeet@gmail.com</td>
+                                        <td>pccdoe.eco@hpcu.ac.in</td>
                                     </tr>
                                     <tr>
                                         <th class="text-center"><img
                                                 src="{{ asset('frontend/images/team/Prof. Jagmeet Bawa.png') }}"
                                                 alt="" class="pctab-img img-fluid h-auto">
                                         </th>
-                                        <td>Prof. Jagmeet Singh</td>
+                                        <td>Prof. Jagmeet Bawa</td>
                                         <td>M.A Political Science</td>
-                                        <td>jagmeet@gmail.com</td>
+                                        <td>pccdoe.polsc@hpcu.ac.in</td>
                                     </tr>
                                     <tr>
                                         <th class="text-center"><img
                                                 src="{{ asset('frontend/images/team/Aditi_Pic_Programme_Coordinator_MBA.jpg') }}"
                                                 alt="" class="pctab-img img-fluid h-auto">
                                         </th>
-                                        <td><a style="color:#f47216" href="{{ route('programCoordinator.details', 'aditi') }}">Dr. Aditi
+                                        <td><a style="color:#f47216"
+                                                href="{{ route('programCoordinator.details', 'aditi') }}">Dr. Aditi
                                                 Sharma</a>
                                         </td>
                                         <td>MBA</td>
-                                        <td>aditi@gmail.com</td>
+                                        <td>pccdoe.mgmt@hpcu.ac.in</td>
                                     </tr>
                                     <tr>
                                         <th class="text-center"><img
@@ -74,16 +75,17 @@
                                                 Parveen Sadotra</a>
                                         </td>
                                         <td>MCA</td>
-                                        <td>parveen@gmail.com</td>
+                                        <td>pccdoe.csc@hpcu.ac.in</td>
                                     </tr>
                                     <tr>
                                         <th class="text-center"><img
                                                 src="{{ asset('frontend/images/team/Dr. Jadish Parshad.jpg') }}"
                                                 alt="" class="pctab-img">
                                         </th>
-                                        <td><a href="{{ route('programCoordinator.details', ['name' => 'jagdish']) }}" style="color:#f47216">Dr. Jadish Parshad</a></td>
+                                        <td><a href="{{ route('programCoordinator.details', ['name' => 'jagdish']) }}"
+                                                style="color:#f47216">Dr. Jadish Parshad</a></td>
                                         <td>M.A History</td>
-                                        <td>jadish@gmail.com</td>
+                                        <td>pccdoe.his@hpcu.ac.in</td>
                                     </tr>
                                 </tbody>
                             </table>
