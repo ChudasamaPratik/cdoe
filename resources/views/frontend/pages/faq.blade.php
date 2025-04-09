@@ -1,6 +1,11 @@
 @extends('frontend.layouts.main')
 @section('title','FAQ')
 @section('content')
+<style>
+    p{
+        text-align: justify;
+    }
+</style>
     <div class="page-header">
         <div class="container">
             <div class="row align-items-center">

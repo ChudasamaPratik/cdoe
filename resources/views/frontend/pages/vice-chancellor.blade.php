@@ -1,5 +1,11 @@
 @extends('frontend.layouts.main')
 @section('content')
+    <style>
+        p,
+        ul li {
+            text-align: justify;
+        }
+    </style>
     <div class="page-header">
         <div class="container">
             <div class="row align-items-center">
@@ -8,7 +14,7 @@
                         <h2 class="text-white">Vice Chancellor | Prof. Sat Prakash Bansal</h2>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
+                                <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Prof. Sat Prakash Bansal</li>
                             </ol>
                         </nav>
