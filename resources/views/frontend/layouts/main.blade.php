@@ -5,7 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <title>@yield('title') | University of Himachal Pradesh</title>
+    <title>
+        @hasSection('title')
+            @yield('title') |
+        @endif University of Himachal Pradesh
+    </title>
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/images/favicon.ico') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&amp;display=swap" rel="stylesheet">
@@ -19,7 +23,11 @@
     <link href="{{ asset('frontend/css/custom.css') }}" rel="stylesheet" media="screen">
 
     <link href="https://www.cuhimachal.ac.in/asset/css/pojo-accessibility.css" rel="stylesheet">
-
+    <style>
+        .pojo-a11y-toolbar-toggle a {
+            background-color: #031c3c !important;
+        }
+    </style>
     @stack('styles')
 </head>
 
@@ -28,7 +36,7 @@
     @yield('content')
 
 
-    <nav id="pojo-a11y-toolbar" class="pojo-a11y-toolbar-left pojo-a11y- pojo-a11y-toolbar" role="navigation"
+    <nav id="pojo-a11y-toolbar" class="pojo-a11y-toolbar-right pojo-a11y- pojo-a11y-toolbar" role="navigation"
         style="margin-top: 200px;">
         <div class="pojo-a11y-toolbar-toggle"> <a class="pojo-a11y-toolbar-link pojo-a11y-toolbar-toggle-link"
                 href="javascript:void(0);" title="Accessibility Tools"> <span class="pojo-sr-only sr-only">Open
@@ -44,12 +52,18 @@
                     <li class="pojo-a11y-toolbar-item"> <a href="#"
                             class="pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-plus"
                             data-action="resize-plus" data-action-group="resize" tabindex="0"> <span
+                                class="pojo-a11y-toolbar-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 100 100" fill="currentColor" width="1em">
+                                    <path
+                                        d="M50 8.1c23.2 0 41.9 18.8 41.9 41.9 0 23.2-18.8 41.9-41.9 41.9C26.8 91.9 8.1 73.2 8.1 50S26.8 8.1 50 8.1M50 0C22.4 0 0 22.4 0 50s22.4 50 50 50 50-22.4 50-50S77.6 0 50 0zm0 11.3c-21.4 0-38.7 17.3-38.7 38.7S28.6 88.7 50 88.7 88.7 71.4 88.7 50 71.4 11.3 50 11.3zm0 8.9c4 0 7.3 3.2 7.3 7.3S54 34.7 50 34.7s-7.3-3.2-7.3-7.3 3.3-7.2 7.3-7.2zm23.7 19.7c-5.8 1.4-11.2 2.6-16.6 3.2.2 20.4 2.5 24.8 5 31.4.7 1.9-.2 4-2.1 4.7-1.9.7-4-.2-4.7-2.1-1.8-4.5-3.4-8.2-4.5-15.8h-2c-1 7.6-2.7 11.3-4.5 15.8-.7 1.9-2.8 2.8-4.7 2.1-1.9-.7-2.8-2.8-2.1-4.7 2.6-6.6 4.9-11 5-31.4-5.4-.6-10.8-1.8-16.6-3.2-1.7-.4-2.8-2.1-2.4-3.9.4-1.7 2.1-2.8 3.9-2.4 19.5 4.6 25.1 4.6 44.5 0 1.7-.4 3.5.7 3.9 2.4.7 1.8-.3 3.5-2.1 3.9z">
+                                    </path>
+                                </svg></span><span class=" pojo-a11y-toolbar-text">Increase Text</span> </a></li>
+                    <li class="pojo-a11y-toolbar-item"> <a href="#"
+                            class="pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-minus"
+                            data-action="resize-minus" data-action-group="resize" tabindex="0"> <span
                                 class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                     width="1em" viewBox="0 0 448 448">
-                                    <path fill="currentColor"
-                                        d="M256 200v16c0 4.25-3.75 8-8 8h-56v56c0 4.25-3.75 8-8 8h-16c-4.25 0-8-3.75-8-8v-56h-56c-4.25 0-8-3.75-8-8v-16c0-4.25 3.75-8 8-8h56v-56c0-4.25 3.75-8 8-8h16c4.25 0 8 3.75 8 8v56h56c4.25 0 8 3.75 8 8zM288 208c0-61.75-50.25-112-112-112s-112 50.25-112 112 50.25 112 112 112 112-50.25 112-112zM416 416c0 17.75-14.25 32-32 32-8.5 0-16.75-3.5-22.5-9.5l-85.75-85.5c-29.25 20.25-64.25 31-99.75 31-97.25 0-176-78.75-176-176s78.75-176 176-176 176 78.75 176 176c0 35.5-10.75 70.5-31 99.75l85.75 85.75c5.75 5.75 9.25 14 9.25 22.5z" "=""></path></svg></span><span class=" pojo-a11y-toolbar-text">Increase Text</span> </a></li>
-              <li class="pojo-a11y-toolbar-item"> <a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-minus" data-action="resize-minus" data-action-group="resize" tabindex="0"> <span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448">
-                      <path fill="currentColor" d=" M256 200v16c0 4.25-3.75 8-8 8h-144c-4.25 0-8-3.75-8-8v-16c0-4.25
+                                    <path fill="currentColor" d=" M256 200v16c0 4.25-3.75 8-8 8h-144c-4.25 0-8-3.75-8-8v-16c0-4.25
                                         3.75-8 8-8h144c4.25 0 8 3.75 8 8zM288 208c0-61.75-50.25-112-112-112s-112
                                         50.25-112 112 50.25 112 112 112 112-50.25 112-112zM416 416c0 17.75-14.25 32-32
                                         32-8.5 0-16.75-3.5-22.5-9.5l-85.75-85.5c-29.25 20.25-64.25 31-99.75 31-97.25

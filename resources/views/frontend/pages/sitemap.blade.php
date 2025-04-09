@@ -115,7 +115,7 @@
                                                                 <span>Incharge Admissions and Examinations</span>
                                                             </a>
                                                         </li>
-                                                        <li>
+                                                        {{-- <li>
                                                             <a href="{{ route('coordinators.show', 'administrative-cell') }}"
                                                                 class="d-flex align-items-center">
                                                                 <i class="fas fa-file me-2"></i>
@@ -128,7 +128,7 @@
                                                                 <i class="fas fa-file me-2"></i>
                                                                 <span>Technical & IT Cell</span>
                                                             </a>
-                                                        </li>
+                                                        </li> --}}
                                                         <li>
                                                             <a href="{{ route('coordinators.show', 'program-coordinators') }}"
                                                                 class="d-flex align-items-center">
@@ -295,10 +295,23 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{ asset('documents/Grievance Redressal Guidelines CDOE.pdf') }}"
+                                                    <a href="{{ route('faq') }}" class="d-flex align-items-center">
+                                                        <i class="fas fa-file me-2"></i>
+                                                        <span>FAQ</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('grievance-guidelines') }}"
                                                         target="_blank" class="d-flex align-items-center">
                                                         <i class="fas fa-file me-2"></i>
                                                         <span>Grievance Redressal Guidelines</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('learner-guidelines') }}"
+                                                        target="_blank" class="d-flex align-items-center">
+                                                        <i class="fas fa-file me-2"></i>
+                                                        <span>Learner Support Services Guidelines</span>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -386,7 +399,7 @@
                                         </a>
                                         <ul class="list-unstyled nested-list collapse">
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="{{ route('about-cdoe') }}" class="d-flex align-items-center">
                                                     <i class="fas fa-file me-2"></i>
                                                     <span>About Us</span>
                                                 </a>
@@ -397,7 +410,7 @@
                                                     <span>Photo Gallery</span>
                                                 </a>
                                             </li>
-                                            <li>
+                                            {{-- <li>
                                                 <a href="#" class="d-flex align-items-center">
                                                     <i class="fas fa-file me-2"></i>
                                                     <span>Admissions</span>
@@ -420,7 +433,7 @@
                                                     <i class="fas fa-file me-2"></i>
                                                     <span>Login</span>
                                                 </a>
-                                            </li>
+                                            </li> --}}
                                         </ul>
                                     </div>
 
@@ -432,97 +445,103 @@
                                         </a>
                                         <ul class="list-unstyled nested-list collapse">
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://www.ugc.ac.in/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>UGC</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://www.youtube.com/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>YouTube</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://www.col.org/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>Common Wealth of Learning(Col)</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://deb.ugc.ac.in/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>UGC – DEB</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://www.ignou.ac.in/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>Ignou</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://www.coursera.org/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
-                                                    <span>Coursera SAWAYAM</span>
+                                                    <span>Coursera</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://swayam.gov.in/" class="d-flex align-items-center">
+                                                    <i class="fas fa-external-link-alt me-2"></i>
+                                                    <span>SAWAYAM</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://swayamprabha.gov.in/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>SAWAYAM PRABHA</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://epgp.inflibnet.ac.in/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>E- PG Pathshala</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://egyankosh.ac.in/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>E- Gyankosh</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://ess.inflibnet.ac.in/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>E- Sindhu</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://ess.inflibnet.ac.in/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>Shodh Sindhu</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://nta.ac.in/UGCNet" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>NTA NET</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://www.aicte-india.org/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>AICTE</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://icssr.org/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>ICSSR</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://www.education.gov.in/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>MoE</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" class="d-flex align-items-center">
+                                                <a href="https://www.cuhimachal.ac.in/" class="d-flex align-items-center">
                                                     <i class="fas fa-external-link-alt me-2"></i>
                                                     <span>CUHP</span>
                                                 </a>
@@ -530,7 +549,7 @@
                                         </ul>
                                     </div>
 
-                                    <div class="folder-item">
+                                    {{-- <div class="folder-item">
                                         <a href="#" class="folder-toggle d-flex align-items-center">
                                             <i class="fas fa-folder me-2 folder-icon"></i>
                                             <span>Contact Us</span>
@@ -556,7 +575,7 @@
                                                 </a>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>

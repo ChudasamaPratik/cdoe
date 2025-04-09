@@ -1,6 +1,6 @@
 @extends('frontend.layouts.main')
 @section('title')
-    @if($name == 'aditi')
+    @if ($name == 'aditi')
         Dr. Aditi Sharma
     @elseif($name == 'parveen')
         Dr. Parveen Sadotra
@@ -18,7 +18,7 @@
                 <div class="col-lg-12">
                     <div class="page-header-box">
                         <h2 class="text-white">
-                            @if($name == 'aditi')
+                            @if ($name == 'aditi')
                                 Dr. Aditi Sharma
                             @elseif($name == 'parveen')
                                 Dr. Parveen Sadotra
@@ -33,7 +33,7 @@
                                 <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
                                 <li class="breadcrumb-item"><a href="{{ url()->previous() }}">Programme Coordinator</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">
-                                    @if($name == 'aditi')
+                                    @if ($name == 'aditi')
                                         Dr. Aditi Sharma
                                     @elseif($name == 'parveen')
                                         Dr. Parveen Sadotra
@@ -57,20 +57,24 @@
                 <div class="col-lg-3">
                     <div class="team-single-sidebar">
                         <div class="team-sidebar-image">
-                            <figure class="image-anime reveal" style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
+                            <figure class="image-anime reveal"
+                                style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
                                 <img src="{{ asset(
-                                    $name == 'aditi' ? 'frontend/images/team/Aditi_Pic_Programme_Coordinator_MBA.jpg' : 
-                                    ($name == 'parveen' ? 'frontend/images/team/Dr. Parveen Sadotra.jpg' : 
-                                    ($name == 'jagdish' ? 'frontend/images/team/JAGDIS_ PARSHAD.jpg' :
-                                    'frontend/images/team/default.jpg'))
-                                ) }}" 
-                                alt="Coordinator Photo" style="transform: translate(0px, 0px);">
+                                    $name == 'aditi'
+                                        ? 'frontend/images/team/Aditi_Pic_Programme_Coordinator_MBA.jpg'
+                                        : ($name == 'parveen'
+                                            ? 'frontend/images/team/Dr. Parveen Sadotra.jpg'
+                                            : ($name == 'jagdish'
+                                                ? 'frontend/images/team/JAGDIS_ PARSHAD.jpg'
+                                                : 'frontend/images/team/default.jpg')),
+                                ) }}"
+                                    alt="Coordinator Photo" style="transform: translate(0px, 0px);">
                             </figure>
                         </div>
                         <div class="sidebar-cta-box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                             <div class="sidebar-cta-content">
                                 <h4 class="text-white pb-2">
-                                    @if($name == 'aditi')
+                                    @if ($name == 'aditi')
                                         Dr. Aditi Sharma
                                     @elseif($name == 'parveen')
                                         Dr. Parveen Sadotra
@@ -83,7 +87,7 @@
                                 <hr>
                                 <h4 class="text-dark pb-2 pt-2">Designation</h4>
                                 <p>
-                                    @if($name == 'aditi')
+                                    @if ($name == 'aditi')
                                         Assistant Professor & Programme Coordinator
                                     @elseif($name == 'parveen')
                                         Programme Coordinator
@@ -96,7 +100,7 @@
                                 <hr>
                                 <h4 class="text-dark pb-2 pt-2">Course</h4>
                                 <p>
-                                    @if($name == 'aditi')
+                                    @if ($name == 'aditi')
                                         Two-Year Online MBA
                                     @elseif($name == 'parveen')
                                         Two-Year Online MCA
@@ -109,25 +113,25 @@
                                 <hr>
                                 <h4 class="text-dark pb-2 pt-2">Official Email</h4>
                                 <p>
-                                    @if($name == 'aditi')
-                                        aditi@gmail.com
+                                    @if ($name == 'aditi')
+                                        pccdoe.mgmt@hpcu.ac.in
                                     @elseif($name == 'parveen')
                                         pccdoe.csc@hpcu.ac.in
                                     @elseif($name == 'jagdish')
-                                        raojprasad@hpcu.ac.in
+                                        pccdoe.his@hpcu.ac.in
                                     @else
                                         example@hpcu.ac.in
                                     @endif
                                 </p>
-                                
-                                @if($name == 'parveen')
-                                <hr>
-                                <h4 class="text-dark pb-2 pt-2">Contact</h4>
-                                <p>+91 7006103610</p>
+
+                                @if ($name == 'parveen')
+                                    <hr>
+                                    <h4 class="text-dark pb-2 pt-2">Contact</h4>
+                                    <p>+91 7006103610</p>
                                 @elseif($name == 'jagdish')
-                                <hr>
-                                <h4 class="text-dark pb-2 pt-2">Contact</h4>
-                                <p>+91 9811701650</p>
+                                    <hr>
+                                    <h4 class="text-dark pb-2 pt-2">Contact</h4>
+                                    <p>+91 9811701650</p>
                                 @endif
                             </div>
                         </div>
@@ -139,7 +143,7 @@
                         <div class="team-single-entry sngle-details">
                             <div class="mb-4">
                                 <h3>
-                                    @if($name == 'aditi')
+                                    @if ($name == 'aditi')
                                         Dr. Aditi Sharma
                                     @elseif($name == 'parveen')
                                         Dr. Parveen Sadotra
@@ -150,7 +154,7 @@
                                     @endif
                                 </h3>
                                 <h5 class="text-muted">
-                                    @if($name == 'aditi')
+                                    @if ($name == 'aditi')
                                         Assistant Professor & Programme Coordinator, Two-Year Online MBA
                                     @elseif($name == 'parveen')
                                         Programme Coordinator, Two-Year Online Master of Computer Applications (MCA)
@@ -162,9 +166,9 @@
                                 </h5>
                                 <h6 class="text-muted">Central University of Himachal Pradesh</h6>
                             </div>
-                            
+
                             <div class="coordinator-bio">
-                                @if($name == 'aditi')
+                                @if ($name == 'aditi')
                                     <p style="text-align: justify;">
                                         Dr. Aditi Sharma is an Assistant Professor in the Central University of Himachal
                                         Pradesh with more than 14 years of teaching experience. She earned her Ph.D. from
@@ -186,8 +190,10 @@
                                     </p>
                                     <p style="text-align: justify;">
                                         Her dedication to academic excellence and her enthusiasm for empowering students
-                                        with the abilities required to be successful professionals in the global business arena
-                                        further reinforce her position as a leader in this program. Dr. Sharma's contributions
+                                        with the abilities required to be successful professionals in the global business
+                                        arena
+                                        further reinforce her position as a leader in this program. Dr. Sharma's
+                                        contributions
                                         go beyond instruction to explicitly influencing the curriculum and fostering the
                                         professional development of her students in the fast-paced world of management.
                                     </p>
@@ -195,9 +201,12 @@
                                     <p style="text-align: justify;">
                                         Dr. Parveen Sadotra is a dedicated and experienced Programme Coordinator, overseeing
                                         academic and administrative operations for the Two Year Online Master of Computer
-                                        Applications (MCA) program. With a deep passion for technology and education, Dr. Sadotra
-                                        plays a key role in curriculum design, student engagement, and faculty coordination. Known for
-                                        his proactive approach and leadership skills, he ensures a seamless learning experience for
+                                        Applications (MCA) program. With a deep passion for technology and education, Dr.
+                                        Sadotra
+                                        plays a key role in curriculum design, student engagement, and faculty coordination.
+                                        Known for
+                                        his proactive approach and leadership skills, he ensures a seamless learning
+                                        experience for
                                         students.
                                     </p>
                                 @elseif($name == 'jagdish')
@@ -214,7 +223,8 @@
                                     </p>
                                 @else
                                     <p style="text-align: justify;">
-                                        Biographical information for this coordinator is currently being updated. Please check back later for more details.
+                                        Biographical information for this coordinator is currently being updated. Please
+                                        check back later for more details.
                                     </p>
                                 @endif
                             </div>

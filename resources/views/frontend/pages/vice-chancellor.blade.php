@@ -5,11 +5,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <div class="page-header-box">
-                        <h2 class="text-white">Vice Chancellor | Prof. Alok Kumar Chakrawal</h2>
+                        <h2 class="text-white">Vice Chancellor | Prof. Sat Prakash Bansal</h2>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Prof. Alok Kumar Chakrawal</li>
+                                <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Prof. Sat Prakash Bansal</li>
                             </ol>
                         </nav>
                     </div>
@@ -78,12 +78,12 @@
                     </div>
                 </div>
                 <div class="col-lg-9">
-                    <div class="d-flex align-items-start">
+                    <div class="">
                         <div class="tab-content" id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                                 aria-labelledby="v-pills-home-tab">
                                 <img src="{{ asset('frontend/images/vc-gallery/vc_image_cuhp.jpeg') }}" class="vc-homeimg"
-                                    style="height: 80vh; object-fit: cover;" alt=""
+                                    style="height: 80vh; object-fit: cover;width:100%" alt=""
                                     style="transform: translate(0px, 0px);">
                                 <div class="sidebar-cta-content text-dark">
                                     <h2 class="mt-2 text-dark vc-conthead">Prof. Sat Prakash Bansal</h2>
@@ -402,7 +402,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4 col-md-6">
+                                            {{-- <div class="col-lg-4 col-md-6">
                                                 <div class="contact-info-item wow fadeInUp"
                                                     style="visibility: visible; animation-name: fadeInUp;">
                                                     <div class="icon-box">
@@ -415,7 +415,7 @@
                                                         <p>+91-9874-635-458</p>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> --}}
 
                                             <div class="col-lg-4 col-md-6">
                                                 <div class="contact-info-item wow fadeInUp" data-wow-delay="0.2s"
