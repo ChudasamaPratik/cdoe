@@ -9,7 +9,7 @@
                         <h2 class="text-white">Master of Arts (History)</h2>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
+                                <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Master of Arts (History)</li>
                             </ol>
                         </nav>
@@ -49,7 +49,8 @@
                             <div class="team-member-header">
                                 <div class="section-title d-flex justify-content-between">
                                     <h3>Program Coordinator</h3>
-                                    <a href="{{ route('programCoordinator.details', ['name' => 'jagdish']) }}" class="btn-default">Brief Details</a>
+                                    <a href="{{ route('programCoordinator.details', ['name' => 'jagdish']) }}"
+                                        class="btn-default">Brief Details</a>
                                 </div>
                             </div>
                             <div class="team-member-body wow fadeInUp" data-wow-delay="0.2s"
@@ -170,8 +171,10 @@
                                 </div>
                             </div>
                             <div class="hero-btn">
-                                <a href="#" class="btn-default">Download Syllabus</a>
-                                <a href="https://cuhimachalcdoe.samarth.ac.in/index.php/site/login" target="_blank" class="btn-default">Apply Now</a>
+                                <a href="{{ asset('documents/syallbus/Detailed Syllabus MA History.pdf') }}"
+                                    class="btn-default" download>Download Syllabus</a>
+                                <a href="https://cuhimachalcdoe.samarth.ac.in/index.php/site/login" target="_blank"
+                                    class="btn-default">Apply Now</a>
                             </div>
                         </div>
 
