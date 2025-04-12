@@ -22,7 +22,7 @@
                 <div class="footer-links">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="about-cdoe.html">About Us</a></li>
+                        <li><a href="{{ route('about-cdoe') }}">About Us</a></li>
                         <li><a href="{{ route('gallery') }}">Photo Gallery</a></li>
                         {{-- <li><a href="#">Admissions</a></li>
                         <li><a href="#">Programs</a></li>

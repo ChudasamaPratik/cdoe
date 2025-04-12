@@ -181,8 +181,11 @@
                                     <li class="nav-item"><a class="nav-link"
                                             href="{{ route('CIQA.director') }}">Director</a>
                                     </li>
-                                    <li class="nav-item"><a class="nav-link"
-                                            href="{{ route('CIGA.guidelines') }}">Guidelines</a></li>
+                                    {{-- <li class="nav-item"><a class="nav-link"
+                                            href="{{ route('CIGA.guidelines') }}">Guidelines</a></li> --}}
+                                    <li class="nav-item"><a class="nav-link" target="_blank"
+                                            href="{{ asset('documents/CIQA guidelines Final.pdf') }}">Guidelines</a>
+                                    </li>
                                     <li class="nav-item"><a class="nav-link"
                                             href="{{ route('CIQA.committee') }}">Committee</a></li>
                                 </ul>
