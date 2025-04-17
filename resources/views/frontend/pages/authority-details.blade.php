@@ -198,7 +198,8 @@
                                         tourism marketing, and travel agency operations makes him a respected figure in
                                         academia and industry.</p>
                                 @elseif($role == 'deputy-director')
-                                    <p style="text-align: justify;">Dr. Chaman Lal, presently, working as an Associate Professor, Department of
+                                    <p style="text-align: justify;">Dr. Chaman Lal, presently, working as an Associate
+                                        Professor, Department of
                                         Commerce, School of Commerce &amp; Management Studies, Central University of
                                         Himachal Pradesh, since 2012. Prior to this, he has served Indira Gandhi National
                                         Open University (IGNOU), New Delhi and Department of Higher Education, Govt. of
@@ -214,31 +215,38 @@
                                         Scopus &amp; WOS indexed journals of national and international repute. The Central
                                         University of Himachal Pradesh has conferred ‘Best Teacher’ award on Dr. Chaman
                                         Lal.</p>
-
-                                   
                                 @elseif($role == 'registrar')
-                                    <p style="text-align: justify;">First and foremost, I want to express my sincere
-                                        gratitude towards each member of this esteemed institute (Central University of
-                                        Himachal Pradesh)- Students, faculty, and stakeholders for your unwavering
-                                        dedication and hard work. Together we have created an environment that fosters
-                                        intellectual growth, creativity, and the essence of community.</p>
-
-                                    <p style="text-align: justify;">Our university's success is a testament to everyone's
-                                        collective efforts. As we navigate the ever-evolving landscape of education remain
-                                        steadfast in its commitment to providing a world-class learning experience. Faculty
-                                        members continue to excel in their fields inspiring students/ scholars to think
-                                        critically, innovate, and contribute meaningfully to society. We take pride in
-                                        nurturing a learning environment that not only imparts knowledge but also instills
-                                        the value of integrity, diversity, and leadership.</p>
-
-                                    <p style="text-align: justify;">I want to extend my heartfelt appreciation to each of
-                                        you for your dedication, passion, and contribution to the university. Together we
-                                        are shaping the future and making a difference in the lives of our students and the
-                                        communities we serve. I am confident that the coming months and years will bring new
-                                        achievements, challenges, and opportunities for growth, and I look forward to facing
-                                        them together as one cohesive and resilient institution.</p>
-
-                                    <p style="text-align: justify;">Thank you for your continued commitment to excellence.
+                                    <p style="text-align: justify;">Today we are living in the era of science and
+                                        technology. Every moment, we
+                                        are witnessing advancement in every sphere of life. At this ever-changing point of
+                                        globalization, quality becomes a dominant factor of success in every sector of the
+                                        economy and this includes quality of education also. Today’s society is ‘Knowledge-
+                                        led Society’ and current economy is ‘Knowledge-based Economy’. Without
+                                        knowledge and education, one will find it difficult to succeed in life and a number
+                                        of
+                                        challenges will be in the path of success in this competitive world. In order to
+                                        provide
+                                        educational opportunities to all, the Central University of Himachal Pradesh has
+                                        set-
+                                        up Centre for Distance and Online Education (CDOE). This centre will offer such
+                                        academic programmes at various levels through open and distance learning mode
+                                        and online learning mode. Such programmes through ODL and OL mode can make
+                                        a major contribution in enhancing the Gross Enrolment Ratio and ensuring inclusive
+                                        access and equity in higher education to large sections of our country, particularly
+                                        ‘reaching out the unreached’ and to meet the demands of lifelong learning for
+                                        professional workers which has become more of a necessity in present knowledge
+                                        society. The CDOE, CUHP shall play its role to meet the educational needs of the
+                                        young aspirants including the professional workers, marginalized and the excluded
+                                        youth, spread across the length and breadth of our country, to give the impetus to
+                                        render the best services in the field of higher education. I am of the firm belief
+                                        that
+                                        learners of CDOE, CUHP will be fully equipped with knowledge and skills to meet the
+                                        challenges of the global market and contribute to the growth of the nation. As
+                                        Registrar of CUHP, I assure you that you will enjoy your academic journey with
+                                        CDOE, CUHP. Our friendly and considerate faculty, helpdesk staff and technical staff
+                                        will ever be with you to support, guide and handle your academic concerns. I request
+                                        all the learners to keep your academics as your topmost priority to upgrade your
+                                        knowledge, skills for your prosperous future and successful life.
                                     </p>
                                 @elseif($role == 'incharge-admissions-examinations')
                                     <p style="text-align: justify;">Prof. Jagmeet Bawa is a distinguished academician
