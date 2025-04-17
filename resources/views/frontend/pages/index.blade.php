@@ -249,11 +249,54 @@
                                             </div>
                                         </div>
                                         <div class="testimonial-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quod
-                                                officiis incidunt aut est delectus, quibusdam nemo sequi blanditiis.
-                                                Quisquam in delectus eaque atque provident, sit nemo inventore dolore ea
-                                                ipsam quas voluptatem suscipit rerum quod illum fugiat veritatis?
-                                                Placeat voluptatum maxime vero sunt doloremque.</p>
+                                            <p>Today we are living in the era of science and technology. Every moment, we
+                                                are witnessing advancement in every sphere of life. At this ever-changing
+                                                point of
+                                                globalization, quality becomes a dominant factor of success in every sector
+                                                of the
+                                                economy and this includes quality of education also. Today’s society is
+                                                ‘Knowledge-
+                                                led Society’ and current economy is ‘Knowledge-based Economy’. Without
+                                                knowledge and education, one will find it difficult to succeed in life and a
+                                                number of
+                                                challenges will be in the path of success in this competitive world. In
+                                                order to provide
+                                                educational opportunities to all, the Central University of Himachal Pradesh
+                                                has set-
+                                                up Centre for Distance and Online Education (CDOE). This centre will offer
+                                                such
+                                                academic programmes at various levels through open and distance learning
+                                                mode
+                                                and online learning mode. Such programmes through ODL and OL mode can make
+                                                a major contribution in enhancing the Gross Enrolment Ratio and ensuring
+                                                inclusive
+                                                access and equity in higher education to large sections of our country,
+                                                particularly
+                                                ‘reaching out the unreached’ and to meet the demands of lifelong learning
+                                                for
+                                                professional workers which has become more of a necessity in present
+                                                knowledge
+                                                society. The CDOE, CUHP shall play its role to meet the educational needs of
+                                                the
+                                                young aspirants including the professional workers, marginalized and the
+                                                excluded
+                                                youth, spread across the length and breadth of our country, to give the
+                                                impetus to
+                                                render the best services in the field of higher education. I am of the firm
+                                                belief that
+                                                learners of CDOE, CUHP will be fully equipped with knowledge and skills to
+                                                meet the
+                                                challenges of the global market and contribute to the growth of the
+                                                nation. As
+                                                Registrar of CUHP, I assure you that you will enjoy your academic journey
+                                                with
+                                                CDOE, CUHP. Our friendly and considerate faculty, helpdesk staff and
+                                                technical staff
+                                                will ever be with you to support, guide and handle your academic concerns. I
+                                                request
+                                                all the learners to keep your academics as your topmost priority to upgrade
+                                                your
+                                                knowledge, skills for your prosperous future and successful life.</p>
                                         </div>
                                         <div class="service-btn">
                                             <a href="#" class="readmore-btn message_read_more">Read More</a>
@@ -492,8 +535,7 @@
                             aria-orientation="vertical">
                             <button class="nav-link announc-tab active" id="v-pills-announcement-tab"
                                 data-bs-toggle="pill" data-bs-target="#v-pills-announcement" type="button"
-                                role="tab" aria-controls="v-pills-announcement"
-                                aria-selected="true">Learner
+                                role="tab" aria-controls="v-pills-announcement" aria-selected="true">Learner
                                 Notices</button>
                             <button class="nav-link announc-tab" id="v-pills-upcoming-event-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-upcoming-event" type="button" role="tab"
@@ -507,7 +549,7 @@
                                 data-bs-target="#v-pills-student-notice" type="button" role="tab"
                                 aria-controls="v-pills-student-notice" aria-selected="false">Examination
                                 Notices</button>
-                           
+
                         </div>
                         <div class="tab-content" id="v-pills-tabContent">
                             <div class="tab-pane tab-cont fade show active" id="v-pills-announcement" role="tabpanel"
@@ -518,7 +560,8 @@
                                             Noticess</h3>
                                     </div>
                                     <div class="col-lg-6">
-                                        <a href="{{ route('notification.show', 'learner-notices') }}" class="btn-default f-right">View All</a>
+                                        <a href="{{ route('notification.show', 'learner-notices') }}"
+                                            class="btn-default f-right">View All</a>
                                     </div>
                                 </div>
                                 <marquee direction="up" width="100%" scrollamount="2" height="250"
@@ -2334,7 +2377,8 @@
                                             Circulars</h3>
                                     </div>
                                     <div class="col-lg-6">
-                                        <a href="{{ route('notification.show', 'general-circulars') }}" class="btn-default f-right">View All</a>
+                                        <a href="{{ route('notification.show', 'general-circulars') }}"
+                                            class="btn-default f-right">View All</a>
                                     </div>
                                 </div>
                                 <marquee direction="up" width="100%" scrollamount="2" height="250"
@@ -2562,7 +2606,8 @@
                                             Notices</h3>
                                     </div>
                                     <div class="col-lg-6">
-                                        <a href="{{ route('notification.show', 'admission-notices') }}" class="btn-default f-right">View All</a>
+                                        <a href="{{ route('notification.show', 'admission-notices') }}"
+                                            class="btn-default f-right">View All</a>
                                     </div>
                                 </div>
                                 <marquee direction="up" width="100%" scrollamount="2" height="250"
@@ -2729,7 +2774,8 @@
                                             Notices</h3>
                                     </div>
                                     <div class="col-lg-6">
-                                        <a href="{{ route('notification.show', 'examination-notices') }}" class="btn-default f-right">View All</a>
+                                        <a href="{{ route('notification.show', 'examination-notices') }}"
+                                            class="btn-default f-right">View All</a>
                                     </div>
                                 </div>
                                 <marquee direction="up" width="100%" scrollamount="2" height="250"
