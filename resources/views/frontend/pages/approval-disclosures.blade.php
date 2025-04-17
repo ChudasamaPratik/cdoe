@@ -10,7 +10,7 @@
                         <h2 class="text-white">Approval & Disclosures</h2>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
+                                <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Approval & Disclosures</li>
                             </ol>
                         </nav>
@@ -47,7 +47,7 @@
                                         <th scope="col" class="tbl-bottom">Download</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                {{-- <tbody>
                                     <tr>
                                         <th>1</th>
                                         <td>UGC-DEB/2024/APR-0138</td>
@@ -83,7 +83,7 @@
                                         <td>15-Jan-2024</td>
                                         <td><a href="#" class="btn-default">Download</a></td>
                                     </tr>
-                                </tbody>
+                                </tbody> --}}
                             </table>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="features-item wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                         <div class="icon-box">
-                            <img src="{{asset('frontend/images/Financial-Disclosures.png')}}" alt="">
+                            <img src="{{ asset('frontend/images/Financial-Disclosures.png') }}" alt="">
                         </div>
                         <div class="features-content">
                             <h3>Financial Disclosures</h3>
@@ -111,7 +111,7 @@
                     <div class="features-item wow fadeInUp" data-wow-delay="0.2s"
                         style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                         <div class="icon-box">
-                            <img src="{{asset('frontend/images/Academic-Disclosures.png')}}" alt="">
+                            <img src="{{ asset('frontend/images/Academic-Disclosures.png') }}" alt="">
                         </div>
                         <div class="features-content">
                             <h3>Academic Disclosures</h3>
@@ -128,7 +128,7 @@
                     <div class="features-item wow fadeInUp" data-wow-delay="0.4s"
                         style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                         <div class="icon-box">
-                            <img src="{{asset('frontend/images/Infrastructure-Disclosures.png')}}" alt="">
+                            <img src="{{ asset('frontend/images/Infrastructure-Disclosures.png') }}" alt="">
                         </div>
                         <div class="features-content">
                             <h3>Infrastructure Disclosures</h3>
@@ -145,7 +145,7 @@
                     <div class="features-item wow fadeInUp" data-wow-delay="0.4s"
                         style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                         <div class="icon-box">
-                            <img src="{{asset('frontend/images/Faculty-Development.png')}}" alt="">
+                            <img src="{{ asset('frontend/images/Faculty-Development.png') }}" alt="">
                         </div>
                         <div class="features-content">
                             <h3>Faculty Disclosures</h3>
@@ -162,7 +162,7 @@
                     <div class="features-item wow fadeInUp" data-wow-delay="0.4s"
                         style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                         <div class="icon-box">
-                            <img src="{{asset('frontend/images/Mandatory-Disclosures.png')}}" alt="">
+                            <img src="{{ asset('frontend/images/Mandatory-Disclosures.png') }}" alt="">
                         </div>
                         <div class="features-content">
                             <h3>Mandatory Disclosures</h3>
@@ -179,7 +179,7 @@
                     <div class="features-item wow fadeInUp" data-wow-delay="0.4s"
                         style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                         <div class="icon-box">
-                            <img src="{{asset('frontend/images/Annual-Report.png')}}" alt="">
+                            <img src="{{ asset('frontend/images/Annual-Report.png') }}" alt="">
                         </div>
                         <div class="features-content">
                             <h3>Annual Reports</h3>
@@ -208,7 +208,7 @@
                                         <th scope="col" class="tbl-bottom">Email</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                {{-- <tbody>
                                     <tr>
                                         <th>Public Information Officer (PIO)</th>
                                         <td>Dr. Dinesh Singh</td>
@@ -239,7 +239,7 @@
                                         <td>+91-1234567890</td>
                                         <td>pio@university.edu</td>
                                     </tr>
-                                </tbody>
+                                </tbody> --}}
                             </table>
                         </div>
                     </div>
