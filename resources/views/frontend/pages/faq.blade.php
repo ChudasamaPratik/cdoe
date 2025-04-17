@@ -338,10 +338,12 @@
                             <div id="collapse18" class="accordion-collapse collapse" aria-labelledby="heading18"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>For OL programmes, course materials (e-SLM) are provided as web links for each course
-                                        via SWAYAM. For ODL programmes, hard copies are sent via post/courier. Once
-                                        registered, you may contact the Course Coordinator for access or support via phone
-                                        or email.</p>
+                                    <p>The course materials (e-SLM) will be provided to you in the form of weblinks
+                                        separately for each course prescribed in an OL programme of study. You shall be
+                                        able to access the material through SWAYAM (LMS) of CDOE, CUHP. In case of
+                                        ODL programme, its hard copy will be provided to you through post / courier. Once
+                                        you receive your registration-cum-enrolment number from CDOE, you may contact
+                                        course coordinator who is teaching and managing the course over phone and email.</p>
                                 </div>
                             </div>
                         </div>
@@ -372,8 +374,9 @@
                             <div id="collapse20" class="accordion-collapse collapse" aria-labelledby="heading20"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>CDOE, CUHP follows the UGC-DEB regulations and delivers online learning programmes
-                                        using the 4-quadrant approach of SWAYAM.</p>
+                                    <p>To offer ODL and OL programmes, CDOE, CUHP strictly follows the UGC-
+                                        DEB regulations and guidelines. To deliver the online learning programme, we follow
+                                        4-quadrant approach of SWAYAM.</p>
                                 </div>
                             </div>
                         </div>
@@ -388,8 +391,10 @@
                             <div id="collapse21" class="accordion-collapse collapse" aria-labelledby="heading21"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Study materials (SLM/e-SLM) are in English, while video lectures, discussion forums,
-                                        and live sessions are available in both Hindi and English.</p>
+                                    <p>Study Material (SLM and e-SLM) will be provided in English and e-tutorials
+                                        (video lectures), discussion forum, live sessions etc shall be in bilingual (Hindi
+                                        and
+                                        English medium both).</p>
                                 </div>
                             </div>
                         </div>
@@ -404,8 +409,10 @@
                             <div id="collapse22" class="accordion-collapse collapse" aria-labelledby="heading22"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, CDOE, CUHP is recognized by the Distance Education Bureau, University Grants
-                                        Commission (UGC). Verification can be done through the UGC-DEB website.</p>
+                                    <p>Yes, the CDOE, CUHP is recognised by the Distance Education Bureau,
+                                        University Grants Commission (UGC) to offer ODL and/or OL degree programmes.
+                                        You may check the status with the University Grants Commission - Distance
+                                        Education Bureau (UGC-DEB) on its website.</p>
                                 </div>
                             </div>
                         </div>
@@ -420,8 +427,11 @@
                             <div id="collapse23" class="accordion-collapse collapse" aria-labelledby="heading23"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes. Degrees earned through ODL or OL have the same recognition and value as those
-                                        earned through regular programmes, as per UGC guidelines.</p>
+                                    <p>Yes. The students obtaining degrees under distance education are given the
+                                        same level of recognition and value as offered under regular programmes of the
+                                        universities. In fact, no one can discriminate between students enrolled in distance
+                                        learning/online learning programmes and those enrolled in regular programmes as
+                                        per UGC guidelines.</p>
                                 </div>
                             </div>
                         </div>
@@ -436,9 +446,19 @@
                             <div id="collapse24" class="accordion-collapse collapse" aria-labelledby="heading24"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Examinations are conducted through physical/online/proctored mode as per UGC-DEB
-                                        guidelines. For details about the pattern, refer to the programme guide available
-                                        under the "Programmes Offered" tab on the website.</p>
+                                    <p>Proctored examinations will be conducted. The examinations for Continuous
+                                        Internal Assessment (CIA) and End-Semester Examinations (ESE) for various ODL
+                                        and OL programme of studies of CDOE shall be conducted through
+                                        physical/online/proctored mode/technology-enabled online tests or any other mode
+                                        as decided by the university from time to time. The university shall follow
+                                        guidelines
+                                        issued by the UGC-DEB from time to time for conduct of examinations through
+                                        physical/online/proctored mode/technology-enabled online tests or any other mode
+                                        as decided by the university from time to time.
+                                        You may see the programme guide of respective programme for knowing
+                                        more about the examination system/pattern followed in different programmes offered
+                                        through ODL and OL mode by the CDOE, CUHP. The programme guide is available
+                                        at Programme Offered tab on CDOE website.</p>
                                 </div>
                             </div>
                         </div>
@@ -453,9 +473,13 @@
                             <div id="collapse25" class="accordion-collapse collapse" aria-labelledby="heading25"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes. For ODL, 75% attendance is mandatory in personal contact and lab sessions. For
-                                        OL, 75% participation is required in online activities before the end-semester
-                                        exams.</p>
+                                    <p>You are required to follow the timelines for submission of assignments, CIA and
+                                        examination. The learner in any programme through ODL mode shall be required to
+                                        have minimum attendance of 75 percent in programme specific personal contact
+                                        programme (excluding counselling sessions) and laboratory component of the
+                                        programme. In case of OL programmes, the learner in any OL programme is
+                                        required to have minimum participation of 75 percent in all the activities of online
+                                        programmes organized prior to end-semester examination.</p>
                                 </div>
                             </div>
                         </div>
@@ -470,9 +494,10 @@
                             <div id="collapse26" class="accordion-collapse collapse" aria-labelledby="heading26"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes. Everything from application to certification is conducted online. After
-                                        registration, you can access and download the self-learning material (e-SLM) through
-                                        the SWAYAM Learning Management System (LMS).</p>
+                                    <p>Yes. Everything from application to certification will be online and you can
+                                        access the self-learning material from SWAYAM-Learning Management System after
+                                        getting registered on completion of admission formalities. You can download the e-
+                                        Self Learning Material (e-SLM) as well.</p>
                                 </div>
                             </div>
                         </div>
@@ -487,8 +512,11 @@
                             <div id="collapse27" class="accordion-collapse collapse" aria-labelledby="heading27"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>After your admission is confirmed, access to the SWAYAM LMS will be activated through
-                                        your SAMARTH account. Once active, you can access the e-SLM materials from there.
+                                    <p>CDOE, CUHP uses SWAYAM as a Learning Management System (LMS) and
+                                        employs it for transactional delivery. On confirmation of the admission, the learner
+                                        will get the access to the SWAYAM (LMS) through the SAMARTH account itself.
+                                        Once the SWAYAM (LMS) access button will get active, the learners can access the
+                                        learning material in the form of e-SLM.
                                     </p>
                                 </div>
                             </div>
@@ -504,8 +532,10 @@
                             <div id="collapse28" class="accordion-collapse collapse" aria-labelledby="heading28"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>No, all study materials are available in the form of e-SLM on the SWAYAM LMS. You
-                                        only need a desktop computer, laptop, or smartphone with internet access.</p>
+                                    <p>No, every study material is available in SWAYAM (LMS) in the form of e-SLM
+                                        on learner’s registered account. You are required to have desktop
+                                        computer/laptop/smartphone for using SWAYAM portal for undertaking OL
+                                        programme of studies.</p>
                                 </div>
                             </div>
                         </div>
@@ -520,8 +550,8 @@
                             <div id="collapse29" class="accordion-collapse collapse" aria-labelledby="heading29"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, a dedicated Helpdesk-cum-LSS cell is available to support you. You can contact
-                                        them by visiting the Helpdesk tab on the CDOE website.</p>
+                                    <p>Yes, we have a dedicated Helpdesk-cum-LSS cell for your assistance and
+                                        you may contact this desk/cell by visiting the Helpdesk tab on CDOE website.</p>
                                 </div>
                             </div>
                         </div>
@@ -536,6 +566,8 @@
                             <div id="collapse30" class="accordion-collapse collapse" aria-labelledby="heading30"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
+                                    <p>You may employ following steps for admission to ODL and OL programme of
+                                        studies:</p>
                                     <ul>
                                         <li>Register on SAMARTH portal of CDOE, CUHP</li>
                                         <li>Fill out the application form online</li>
@@ -558,9 +590,12 @@
                             <div id="collapse31" class="accordion-collapse collapse" aria-labelledby="heading31"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>You will receive a registration ID, academic calendar, and counselling schedule.
-                                        Access to e-SLM and other resources will be provided. Stay updated via notifications
-                                        through your SWAYAM account.</p>
+                                    <p>After completing the admission formalities, you will receive registration ID.
+                                        You will also receive academic calendar and counselling schedule. You will get
+                                        access to the e-SLM. You are advised to follow the information available on our
+                                        website. Once registered, you will also start receiving the notifications through
+                                        your
+                                        SWAYAM account.</p>
                                 </div>
                             </div>
                         </div>
@@ -575,10 +610,10 @@
                             <div id="collapse32" class="accordion-collapse collapse" aria-labelledby="heading32"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Please visit the official CDOE website at <a
-                                            href="https://www.cdoe.cuhimachal.ac.in"
-                                            target="_blank">www.cdoe.cuhimachal.ac.in</a> for updated application fee
-                                        details.</p>
+                                    <p>To know about the cost of application, please visit our website:
+                                        <a href="https://www.cdoe.cuhimachal.ac.in"
+                                            target="_blank">www.cdoe.cuhimachal.ac.in</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -593,8 +628,11 @@
                             <div id="collapse33" class="accordion-collapse collapse" aria-labelledby="heading33"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Fee can be paid through Credit/Debit Card, Net Banking, or UPI. Payment status will
-                                        be updated within 72 hours. For any issues, email: <a
+                                    <p>Payment Gateway options provided by CDOE, CUHP are Credit/Debit Card
+                                        (ATM), Net Banking / UPI. Status of Fee paid by learner through Online Mode will be
+                                        updated within 72 hours. In case of any fee deposit related clarification/details,
+                                        write
+                                        an email to <a
                                             href="mailto:helpdeskcdoe.cuhp@hpcu.ac.in">helpdeskcdoe.cuhp@hpcu.ac.in</a>.
                                     </p>
                                 </div>
@@ -611,8 +649,10 @@
                             <div id="collapse34" class="accordion-collapse collapse" aria-labelledby="heading34"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>All applicable charges are listed on the CDOE website and admission handbook. No
-                                        extra charges beyond those listed will be applied.</p>
+                                    <p>All details related to programme fee and any other charges shall be displayed
+                                        prior by CDOE on its website and admission prospectus (handbook of information).
+                                        No extra charges shall be applicable other than those mentioned at the time of
+                                        applying for admission to ODL and OL programmes of CDOE, CUHP.</p>
                                 </div>
                             </div>
                         </div>
@@ -627,9 +667,10 @@
                             <div id="collapse35" class="accordion-collapse collapse" aria-labelledby="heading35"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>SWAYAM provides access to course material, recorded lectures, live sessions,
-                                        assignments, discussion forums, academic calendar, and notifications, all from your
-                                        personal dashboard.</p>
+                                    <p>SWAYAM is your Learning Management System in your pocket. You will get access to your
+                                        course material, Recorded Lectures, Live Sessions, Assignments, Discussion forums,
+                                        Academic Calendar, etc. You will get all information/notifications on the dashboard.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -643,8 +684,9 @@
                             <div id="collapse36" class="accordion-collapse collapse" aria-labelledby="heading36"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, periodic orientation sessions are conducted to help learners understand how to
-                                        use the SWAYAM platform for their OL programmes.</p>
+                                    <p>Yes, we conduct periodic orientation sessions on how to make use of SWAYAM (LMS)
+                                        platform by the learners for OL programmes of studies.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -659,8 +701,8 @@
                             <div id="collapse37" class="accordion-collapse collapse" aria-labelledby="heading37"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, SWAYAM is accessible on mobile phones, laptops, PCs, and tablets—anytime and
-                                        anywhere.</p>
+                                    <p>Yes, our SWAYAM (LMS) is accessible on mobile, Laptops, PCs, and tablets. You can
+                                        access it anytime, anywhere at your convenience.</p>
                                 </div>
                             </div>
                         </div>
@@ -675,8 +717,10 @@
                             <div id="collapse38" class="accordion-collapse collapse" aria-labelledby="heading38"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, live discussion sessions are organized under each course as part of the
-                                        4-quadrant approach of the SWAYAM platform.</p>
+                                    <p>Yes, as per SWAYAM 4-quadrant approach of transactional delivery mechanism, one of
+                                        the essential quadrants is Discussion Forum. We organise live discussion sessions
+                                        periodically under each course to address the issues of our learners.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -691,8 +735,9 @@
                             <div id="collapse39" class="accordion-collapse collapse" aria-labelledby="heading39"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Peer interaction is facilitated via discussion forums and online platforms provided
-                                        by CDOE, CUHP.</p>
+                                    <p>The discussion forum is the medium through which you can connect with your course
+                                        coordinator and peers. The CDOE, CUHP has made adequate arrangements for peer
+                                        interaction through online mode. </p>
                                 </div>
                             </div>
                         </div>
@@ -707,8 +752,8 @@
                             <div id="collapse40" class="accordion-collapse collapse" aria-labelledby="heading40"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, you can raise your queries via the learning portal or helpdesk email. Faculty
-                                        will respond in a time-bound manner.</p>
+                                    <p>Yes, you can post your queries through your learning portal and e-mail (of Helpdesk),
+                                        and the faculty will respond in a time bound manner to your queries. </p>
                                 </div>
                             </div>
                         </div>
@@ -723,6 +768,8 @@
                             <div id="collapse41" class="accordion-collapse collapse" aria-labelledby="heading41"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
+                                    <p>Examination for a particular semester in each course will consist of two components:
+                                    </p>
                                     <ul>
                                         <li><strong>End Semester Examination (ESE):</strong> 70% weightage</li>
                                         <li><strong>Continuous Internal Assessment (CIA):</strong> 30% weightage</li>
@@ -741,8 +788,11 @@
                             <div id="collapse42" class="accordion-collapse collapse" aria-labelledby="heading42"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, most programmes have project/dissertation and some include practical/laboratory
-                                        components. Check the programme guide on the CDOE website for details.</p>
+                                    <p>Yes. ODL and OL learning programmes have projects / dissertation as an integral
+                                        component to give field exposure. Certain programmes have practical
+                                        laboratory components also. You may see the programme guide which is available at
+                                        Programme Offered tab on CDOE website.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -758,8 +808,9 @@
                             <div id="collapse43" class="accordion-collapse collapse" aria-labelledby="heading43"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Visit the <strong>Programme Offered</strong> tab on the CDOE website to access
-                                        detailed semester-wise course structure and syllabus.</p>
+                                    <p>The detailed semester-wise and course-wise credit distribution along with detailed
+                                        syllabus of various programmes of studies offered through ODL and OL mode is
+                                        available at CDOE website under programme offered tab. </p>
                                 </div>
                             </div>
                         </div>
@@ -774,8 +825,12 @@
                             <div id="collapse44" class="accordion-collapse collapse" aria-labelledby="heading44"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, the curriculum is designed to meet current and future industry and community
-                                        needs. It aligns with NEP-2020 and is regularly updated.</p>
+                                    <p>Yes. Curriculum of ODL and OL programmes of studies is designed in way to suit the
+                                        present and future requirements of Industry and community. The curriculum has also
+                                        designed in consonance with the stipulations of National Education Policy 2020. The
+                                        CDOE has a provision of regular up-dation of prescribed curriculum in accordance
+                                        with emerging needs.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -790,8 +845,9 @@
                             <div id="collapse45" class="accordion-collapse collapse" aria-labelledby="heading45"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, as per UGC guidelines, the mode of delivery (OL/ODL) will be printed on the
-                                        final certificate/degree issued by CDOE, CUHP.</p>
+                                    <p>Yes, as per the guidelines of UGC, the mode of delivery shall be printed on the final
+                                        certificate/degree to be issued by CDOE, CUHP.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -806,8 +862,11 @@
                             <div id="collapse46" class="accordion-collapse collapse" aria-labelledby="heading46"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>ABC-ID is a unique Academic Bank of Credit ID assigned to learners for storing and
-                                        transferring academic credits digitally across institutions, in line with NEP-2020.
+                                    <p>The Academic Bank of Credit ID (ABC-ID) is a unique identification assigned to
+                                        learners under India’s Academic Bank of Credit system. It facilitates digital
+                                        storage, transfer, and accumulation of academic credits earned across multiple
+                                        institutions, supporting flexible learning pathways and enabling credit transfer for
+                                        degree completion as per the National Education Policy-2020.
                                     </p>
                                 </div>
                             </div>
@@ -823,8 +882,8 @@
                             <div id="collapse47" class="accordion-collapse collapse" aria-labelledby="heading47"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, as per CUHP regulations and NEP-2020, all learners must have an ABC-ID to pursue
-                                        OL/ODL programmes.</p>
+                                    <p>Yes, according to NEP-2020 and as per the rules and regulations of CUHP, Academic
+                                        Bank of Credit ID (ABC-ID) is mandatory for all learners. </p>
                                 </div>
                             </div>
                         </div>
@@ -839,10 +898,16 @@
                             <div id="collapse48" class="accordion-collapse collapse" aria-labelledby="heading48"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Students can create their ABC-ID via DigiLocker at <a href="https://www.abc.gov.in/"
-                                            target="_blank">abc.gov.in</a>. Aadhaar-linked mobile number is mandatory.
-                                        Watch this YouTube tutorial: <a href="https://www.youtube.com/watch?v=Gw3DUHaJg1c"
-                                            target="_blank">How to create ABC-ID</a>.</p>
+                                    <p>All the students are advised to create their ABC-ID through Digi Locker before taking
+                                        admission in the CDOE, CUHP. Students can create their ABC-ID through the
+                                        link
+                                        <a href="https://www.abc.gov.in/" target="_blank">(https://www.abc.gov.in/)</a>.
+                                        Before creation of ABC-ID, the mobile no. of the student must be linked with Aadhaar
+                                        (mandatory).
+                                        The YouTube Link to know how to create ABC-IDs <a
+                                            href="https://www.youtube.com/watch?v=Gw3DUHaJg1c"
+                                            target="_blank">https://www.youtube.com/watch?v=Gw3DUHaJg1c</a>.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -857,8 +922,10 @@
                             <div id="collapse49" class="accordion-collapse collapse" aria-labelledby="heading49"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>DEB-ID is a unique identifier assigned to students enrolled under UGC’s Distance
-                                        Education Bureau to ensure valid enrolment and track academic credits.</p>
+                                    <p>DEB-ID is a unique identifier assigned to learner enrolled in programmes under the
+                                        Distance Education Bureau (DEB) of the University Grants Commission (UGC) in India.
+                                        The DEB-ID ensures proper enrolment, facilitates academic credit tracking, and helps
+                                        maintain compliance with UGC-DEB guidelines for recognized programmes. </p>
                                 </div>
                             </div>
                         </div>
@@ -873,8 +940,14 @@
                             <div id="collapse50" class="accordion-collapse collapse" aria-labelledby="heading50"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, UGC mandates all learners enrolling in ODL/OL programmes to register with ABC-ID
-                                        and generate a DEB-ID for standardized admission and academic tracking.</p>
+                                    <p>Yes, having a DEB-ID is mandatory for admission to distance education or online
+                                        courses regulated by the UGC-Distance Education Bureau (DEB), Govt. of India. The
+                                        University Grants Commission has decided to standardize the admission process for
+                                        learners enrolling in ODL and/or OL programmes to safeguard their academic future
+                                        and career opportunities. Accordingly, it was made mandatory for learners to
+                                        register on UGC-DEB web portal with his/her Academic Bank of Credit (ABC)-ID to
+                                        generate a unique DEB-ID to enrol in ODL/Online programmes offered by CDOE, CUHP.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -890,11 +963,26 @@
                             <div id="collapse51" class="accordion-collapse collapse" aria-labelledby="heading51"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>The University allows transfer of credits earned through ODL/OL programmes to other
-                                        institutions or face-to-face programmes within the university, as per UGC-DEB
-                                        guidelines. Approval from statutory authorities is required. Credit transfer to
-                                        other universities depends on their discretion, and students must request through
-                                        the Controller of Examinations along with a prescribed fee.</p>
+                                    <p>The University shall have provision for transfer of credits earned by its students
+                                        (either through different face-to face programme of studies or various ODL/OL
+                                        programme of studies) to other Universities / educational institutions. Any learner
+                                        enrolled in ODL or OL programme of study in CDOE, CUHP shall be eligible for
+                                        mobility from ODL and / or OL mode of learning to physical mode (face to face mode)
+                                        of learning within this university as per the UGC-DEB guidelines and as per the
+                                        provisions stipulated under the University Act/Statutes/Ordinances and with the
+                                        approval of the statutory authorities of the university. The university shall have
+                                        the provision for transfer of the credits earned by students after successful
+                                        completion of
+                                        a programme of study through ODL / OL mode from CDOE, CUHP as per UGC-DEB guidelines
+                                        issued from time to time and adopted by the university accordingly. A student of the
+                                        University seeking transfer of credit to other Universities/ institutions shall
+                                        submit a request, along with the fee as prescribed by the university from time to
+                                        time, to the Controller of Examinations through Director, CDOE. The onus of
+                                        accepting the transferred credits (either all credits or specified percentage of
+                                        credits) by other universities / institutions shall be the entire discretion of the
+                                        university / institution where the credits shall be transferred. The transferring
+                                        university/CDOE, CUHP shall not have any role in this context.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -910,9 +998,12 @@
                             <div id="collapse52" class="accordion-collapse collapse" aria-labelledby="heading52"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, you can shift to the regular mode, subject to availability of seats in the
-                                        desired programme and semester, and based on UGC guidelines and the accepting
-                                        institution’s policies.</p>
+                                    <p>Yes. You can shift to regular mode from ODL / OL mode. However, this will depend upon
+                                        the institution/university where you wish to shift that whether that
+                                        institution/university has availability of seat/s in concerned regular programme in
+                                        respective semester and the provisions for credit transfer. Such shifting shall be
+                                        allowed only in accordance with the guidelines of UGC.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -929,8 +1020,11 @@
                             <div id="collapse53" class="accordion-collapse collapse" aria-labelledby="heading53"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, shift from regular to ODL/OL mode is possible depending on UGC-DEB guidelines,
-                                        academic calendar, and provisions for credit transfer of the accepting institution.
+                                    <p>The admissions to ODL / OL programme of studies are made in accordance with the
+                                        guidelines and academic calendar of UGC-DEB. This shift of admission to ODL / OL
+                                        mode from regular mode shall entirely depend on UGC-DEB guidelines and academic
+                                        calendar as well as provisions for credit transfer/ mobility of accepting
+                                        institution.
                                     </p>
                                 </div>
                             </div>
@@ -947,8 +1041,9 @@
                             <div id="collapse54" class="accordion-collapse collapse" aria-labelledby="heading54"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, individuals can pursue two degrees simultaneously as per UGC guidelines, rules,
-                                        and regulations.</p>
+                                    <p>Any individual can pursue two degrees simultaneously in accordance with the existing
+                                        guidelines, rules and regulations of UGC.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -964,8 +1059,8 @@
                             <div id="collapse55" class="accordion-collapse collapse" aria-labelledby="heading55"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Yes, foreign nationals are eligible to apply for ODL and OL programmes offered by
-                                        CDOE, CUHP.</p>
+                                    <p>foreign nationals are also eligible to apply.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -982,8 +1077,10 @@
                             <div id="collapse56" class="accordion-collapse collapse" aria-labelledby="heading56"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>CDOE, CUHP is authorized by UGC-DEB to offer ODL and Online programmes across India
-                                        and globally, complying with UGC regulations.</p>
+                                    <p>As per UGC-DEB guidelines and in accordance with its Act, CUHP is authorized to offer
+                                        ODL and Online programs across India and the world. The university complies with UGC
+                                        regulations, allowing learners from any part of the world to enrol in its
+                                        programmes. </p>
                                 </div>
                             </div>
                         </div>
@@ -999,14 +1096,14 @@
                             <div id="collapse57" class="accordion-collapse collapse" aria-labelledby="heading57"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Please visit <a href="https://www.cdoe.cuhimachal.ac.in" target="_blank">CDOE
-                                            Website</a> for more details.<br>
-                                        <strong>Contact Address:</strong><br>
+                                    <p>visit our website <a href="https://www.cdoe.cuhimachal.ac.in"
+                                            target="_blank">https://www.cdoe.cuhimachal.ac.in</a> for more details.<br>
+                                        <strong>Address for Communication:</strong><br>
                                         Centre for Distance and Online Education (CDOE),<br>
                                         Central University of Himachal Pradesh (CUHP),<br>
                                         Dharamshala, Distt. Kangra (HP) – 176215 (INDIA)<br>
                                         <strong>Email:</strong> <a
-                                            href="mailto:cdoe.office@hpcu.ac.in">cdoe.office@hpcu.ac.in</a><br>
+                                            href="cdoe.office@hpcu.ac.in">cdoe.office@hpcu.ac.in</a><br>
                                         <strong>Director:</strong> Prof. Vishal Sood
                                     </p>
                                 </div>
